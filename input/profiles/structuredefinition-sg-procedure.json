@@ -1,0 +1,157 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sg-procedure",
+  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-procedure",
+  "name": "SGProcedure",
+  "title": "WHO SMART Guidelines Procedure",
+  "status": "draft",
+  "experimental": false,
+  "description": "WHO SMART Guidelines Procedure",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-procedure",
+  "derivation": "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "Procedure",
+        "path" : "Procedure",
+        "mustSupport" : false
+      },
+      {
+        "id" : "Procedure.identifier",
+        "path" : "Procedure.identifier",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.identifier.use",
+        "path" : "Procedure.identifier.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.identifier.system",
+        "path" : "Procedure.identifier.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.identifier.value",
+        "path" : "Procedure.identifier.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.status",
+        "path" : "Procedure.status",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.code",
+        "path" : "Procedure.code",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.subject",
+        "path" : "Procedure.subject",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.encounter",
+        "path" : "Procedure.encounter",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-encounter"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.performed[x]",
+        "path" : "Procedure.performed[x]",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.performer",
+        "path" : "Procedure.performer",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.performer.actor",
+        "path" : "Procedure.performer.actor",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitioner",
+              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitionerrole",
+              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient",
+              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-relatedperson"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.location",
+        "path" : "Procedure.location",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-location"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.reasonCode",
+        "path" : "Procedure.reasonCode",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.reasonReference",
+        "path" : "Procedure.reasonReference",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.bodySite",
+        "path" : "Procedure.bodySite",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.outcome",
+        "path" : "Procedure.outcome",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.report",
+        "path" : "Procedure.report",
+        "mustSupport" : true
+      }
+    ]
+  }
+}

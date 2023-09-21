@@ -1,19 +1,38 @@
-id: fhir.who.smart-base
-canonical: http://worldhealthorganization.github.io/smart
-name: SMART
-title: SMART Empty IG
-description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
+id: who.fhir.smart-commons-clinical-encounter
+canonical: http://worldhealthorganization.github.io/smart-commons-clinical-encounter
+name: SMARTCommonsClinicalEncounter
+title: SMART Commons Clinical Encounter
+description: This implementation guide defines common clinical profiles for use with WHO SMART Guidelines content
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+license: CC-BY-SA-3.0-IGO # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: WHO
   url: http://who.int
   # email: test@example.org
+
+dependencies:
+#  hl7.fhir.core:
+#    id: r4b
+#    version: 4.6.0
+#    reason: |
+#      This IG leverages subscription constructs pre-adopted from R4B.  Importing this IG makes the relevant terminologies available.
+  hl7.fhir.uv.crmi:
+    id: crmi
+    version: 1.0.0-ballot
+    reason: This IG uses content management profiles and capabilities provided by CRMI
+  hl7.fhir.uv.cpg:
+    id: cpg
+    version: 1.0.0
+    reason: This IG uses computable guideline profiles and capabilities provided by CPG
+  who.fhir.smart-base:
+    id: sb
+    version: dev
+    reason: This IG uses SMART base computable guildeine capabilities
 
 pages:
   index.md:
