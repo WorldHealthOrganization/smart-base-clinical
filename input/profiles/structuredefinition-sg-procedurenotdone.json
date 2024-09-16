@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-procedurenotdone",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-procedurenotdone",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-procedurenotdone",
   "name": "SGProcedureNotDone",
   "title": "WHO SMART Guidelines Procedure Not Done",
   "status": "draft",
@@ -114,7 +114,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
             ]
           }
         ],
@@ -127,7 +127,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-encounter"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
             ]
           }
         ],

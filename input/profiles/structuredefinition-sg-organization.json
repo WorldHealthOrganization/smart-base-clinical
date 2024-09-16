@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-organization",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-organization",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-organization",
   "name": "SGOrganization",
   "title": "WHO SMART Guidelines Organization",
   "status": "draft",
@@ -96,7 +96,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-organization"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-organization"
             ]
           }
         ],

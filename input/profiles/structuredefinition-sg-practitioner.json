@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-practitioner",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitioner",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
   "name": "SGPractitioner",
   "title": "WHO SMART Guidelines Practitioner",
   "status": "draft",

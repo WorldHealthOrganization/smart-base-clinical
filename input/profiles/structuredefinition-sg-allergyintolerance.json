@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-allergyintolerance",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-allergyintolerance",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-allergyintolerance",
   "name": "SGAllergyIntolerance",
   "title": "WHO SMART Guidelines AllergyIntolerance",
   "status": "draft",
@@ -24,7 +24,7 @@
               "key" : "1",
               "severity" : "error",
               "human" : "extension: reasonRefuted is only permitted if status is refuted",
-              "expression" : "verificationStatus.coding.code = 'refuted' or extension.where(url='http://hl7.org/fhir/StructureDefinition/allergyintolerance-reasonRefuted').empty()",
+              "expression" : "verificationStatus.coding.code.contains('refuted') or extension.where(url='http://hl7.org/fhir/StructureDefinition/allergyintolerance-reasonRefuted').empty()",
               "xpath" : "not(f:verificationStatus/coding/code/@value != 'refuted' and f:extension/@url='http://hl7.org/fhir/StructureDefinition/allergyintolerance-reasonRefuted')"
             }
           ],
@@ -138,7 +138,7 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient"
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
               ]
             }
           ],
@@ -151,7 +151,7 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-encounter"
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
               ]
             }
           ],
@@ -193,10 +193,10 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitioner",
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitionerrole",
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient",
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-relatedperson"
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson"
               ]
             }
           ],
@@ -209,10 +209,10 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitioner",
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitionerrole",
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient",
-                "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-relatedperson"
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson"
               ]
             }
           ],

@@ -1,10 +1,11 @@
-id: who.fhir.smart-commons-clinical-encounter
-canonical: http://worldhealthorganization.github.io/smart-commons-clinical-encounter
-name: SMARTCommonsClinicalEncounter
-title: SMART Commons Clinical Encounter
-description: This implementation guide defines common clinical profiles for use with WHO SMART Guidelines content
+id: smart.who.int.base-clinical
+canonical: http://smart.who.int/base-clinical
+name: SMARTBaseClinical
+title: SMART Base Clinical
+description: This implementation guide defines common clinical artifacts for use with WHO SMART Guidelines content
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+experimental: false
+version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -21,15 +22,15 @@ dependencies:
 #    version: 4.6.0
 #    reason: |
 #      This IG leverages subscription constructs pre-adopted from R4B.  Importing this IG makes the relevant terminologies available.
-  hl7.fhir.uv.crmi:
-    id: crmi
-    version: 1.0.0-ballot
-    reason: This IG uses content management profiles and capabilities provided by CRMI
   hl7.fhir.uv.cpg:
     id: cpg
     version: 1.0.0
     reason: This IG uses computable guideline profiles and capabilities provided by CPG
-  who.fhir.smart-base:
+  hl7.fhir.us.cqfmeasures:
+    id: cqfm
+    version: current
+    reason: This IG uses computable measure capabilities provided by the Quality Measure IG
+  smart.who.int.base:
     id: sb
     version: dev
     reason: This IG uses SMART base computable guildeine capabilities
@@ -41,6 +42,8 @@ pages:
     title: Changes
   downloads.md: 
     title: Downloads
+  license.md:
+    title: License
 
 menu:
   Home: index.html 
@@ -51,7 +54,7 @@ menu:
 
 meta:
   profile:
-    - SMARTImplementationGuide
+    - http://smart.who.int/base/StructureDefinition/SGImplementationGuide
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

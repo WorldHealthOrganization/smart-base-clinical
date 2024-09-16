@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-observationnotdone",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-observationnotdone",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-observationnotdone",
   "name": "SGObservationNotDone",
   "title": "WHO SMART Guidelines Observation Not Done",
   "status": "draft",
@@ -28,22 +28,6 @@
           }
         ],
         "mustSupport" : false
-      },
-      {
-        "id" : "Observation.extension:notDoneReason",
-        "path" : "Observation.extension",
-        "sliceName" : "notDoneReason",
-        "min" : 1,
-        "max" : "1",
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-notDoneReason"
-            ]
-          }
-        ],
-        "mustSupport" : true
       },
       {
         "id" : "Observation.identifier",
@@ -132,7 +116,7 @@
            {
              "code" : "Reference",
              "targetProfile" : [
-               "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient"
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
              ]
            }
          ],
@@ -145,7 +129,7 @@
            {
              "code" : "Reference",
              "targetProfile" : [
-               "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-encounter"
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
              ]
            }
          ],
@@ -165,10 +149,10 @@
            {
              "code" : "Reference",
              "targetProfile" : [
-               "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitioner",
-               "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitionerrole",
-               "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient",
-               "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-relatedperson"
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson"
              ]
            }
          ],

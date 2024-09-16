@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-relatedperson",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-relatedperson",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson",
   "name": "SGRelatedPerson",
   "title": "WHO SMART Guidelines RelatedPerson",
   "status": "draft",
@@ -62,7 +62,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
             ]
           }
         ],

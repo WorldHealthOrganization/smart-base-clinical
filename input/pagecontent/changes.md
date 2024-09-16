@@ -1,3 +1,3 @@
-# SMART
+### Version 1.0.0
 
-Feel free to modify this index page with your own awesome content!
+Initial Release

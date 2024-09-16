@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-patient",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
   "name": "SGPatient",
   "title": "WHO SMART Guidelines Patient",
   "status": "draft",
@@ -295,8 +295,8 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitioner",
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-practitionerrole"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole"
             ]
           }
         ],
@@ -309,7 +309,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-organization"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-organization"
             ]
           }
         ],
@@ -327,7 +327,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-patient"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
             ]
           }
         ],

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-location",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-location",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-location",
   "name": "SGLocation",
   "title": "WHO SMART Guidelines Location",
   "status": "draft",
@@ -167,7 +167,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-organization"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-organization"
             ]
           }
         ],
@@ -180,7 +180,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-location"
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-location"
             ]
           }
         ],

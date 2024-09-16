@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sg-reportedLocation",
-  "url": "http://worldhealthorganization.github.io/smart-commons-clinical-encounter/StructureDefinition/sg-reportedLocation",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation",
   "name": "SGReportedLocation",
   "title": "WHO SMART Guidelines Reported Location",
   "status": "draft",
@@ -33,7 +33,7 @@
     }, {
       "id": "Extension.url",
       "path": "Extension.url",
-      "fixedUri": "http://fhir.org/guides/who/core/StructureDefinition/sg-reportedLocation"
+      "fixedUri": "http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation"
     }, {
       "id": "Extension.value[x]",
       "path": "Extension.value[x]",
