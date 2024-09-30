@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines PractitionerRole",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines PractitionerRole",
+  "description": "The WHO SMART Guidelines PractitionerRole profile defines conformance requirements and exchange expectations for PractitionerRole resources in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

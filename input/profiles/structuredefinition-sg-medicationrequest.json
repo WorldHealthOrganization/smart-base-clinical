@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines MedicationRequest",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines Medication Request",
+  "description": "The WHO SMART Guidelines MedicationRequest profile defines conformance requirements and exchange expectations for MedicationRequest resources in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

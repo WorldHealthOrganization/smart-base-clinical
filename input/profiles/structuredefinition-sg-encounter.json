@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines Encounter",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines Encounter",
+  "description": "The WHO SMART Guidelines Encounter profile defines conformance requirements and exchange expectations for Encounter resources in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

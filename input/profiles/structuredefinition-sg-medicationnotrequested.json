@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines Medication Not Requested",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines Medication Not Requested",
+  "description": "The WHO SMART Guidelines Medication Not Requested profile defines conformance requirements and exchange expectations for MedicationRequest resources used to communicate that a specific medication (or class of medications) should not be prescribed in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

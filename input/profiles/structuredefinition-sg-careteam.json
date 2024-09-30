@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines CareTeam",
   "status": "draft",
   "experimental": false,
-  "description": "WHO CareTeam",
+  "description": "The WHO SMART Guidelines CareTeam profile defines conformance requirements and exchange expectations for CareTeam resources in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

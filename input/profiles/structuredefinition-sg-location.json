@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines Location",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines Location",
+  "description": "The WHO SMART Guidelines Location profile defines conformance requirements and exchange expectations for Location resources in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

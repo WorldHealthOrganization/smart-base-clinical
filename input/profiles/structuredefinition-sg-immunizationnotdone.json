@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines Immunization Not Done",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines Immunization Not Done",
+  "description": "The WHO SMART Guidelines Immunization Not Done profile defines conformance requirements and exchange expectations for Immunization resources used to communicate that a specific immunization (or class of immunizations) was not done in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

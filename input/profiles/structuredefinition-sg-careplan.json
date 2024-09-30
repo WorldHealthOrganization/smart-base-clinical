@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines CarePlan",
   "status": "draft",
   "experimental": false,
-  "description": "WHO CarePlan",
+  "description": "The WHO SMART Guidelines CarePlan profile defines conformance requirements and exchange expectations for CarePlan resources in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

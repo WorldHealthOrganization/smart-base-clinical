@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines ServiceRequest",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines Service Request",
+  "description": "The WHO SMART Guidelines ServiceRequest profile defines conformance requirements and exchange expectations for ServiceRequest resources in WHO Smart Guidelines content.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

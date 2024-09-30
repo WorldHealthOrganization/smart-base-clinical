@@ -6,7 +6,7 @@
   "title": "WHO SMART Guidelines EpisodeOfCare",
   "status": "draft",
   "experimental": false,
-  "description": "WHO SMART Guidelines EpisodeOfCare",
+  "description": "The WHO SMART Guidelines EpisodeOfCare profile defines conformance requirements and exchange expectations for EpisodeOfCare resources in WHO Smart Guidelines content. EpisodeOfCare resources are used to track enrollment of a patient in a specific guideline for a specific period of time, referred to as a Case in the Clinical Practice Guidelines implementation guide.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
