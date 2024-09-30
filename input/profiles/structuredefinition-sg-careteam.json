@@ -18,7 +18,7 @@
       {
         "id" : "CareTeam",
         "path" : "CareTeam",
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "CareTeam.identifier",

@@ -18,7 +18,7 @@
       {
         "id" : "Practitioner",
         "path" : "Practitioner",
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "Practitioner.identifier",

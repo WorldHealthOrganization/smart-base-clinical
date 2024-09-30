@@ -19,37 +19,7 @@
         "id" : "Condition",
         "path" : "Condition",
         "definition" : "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
-        "mustSupport" : false
-      },
-      {
-        "id" : "Condition.extension:dueTo",
-        "path" : "Condition.extension",
-        "sliceName" : "dueTo",
-        "short" : "What caused the Condition?",
-        "definition" : "Further conditions, problems, diagnoses, procedures or events or the substance that caused/triggered this Condition.",
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/condition-dueTo"
-            ]
-          }
-        ],
-        "mustSupport" : false
-      },
-      {
-        "id" : "Condition.extension:occurredFollowing",
-        "path" : "Condition.extension",
-        "sliceName" : "occurredFollowing",
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/condition-occurredFollowing"
-            ]
-          }
-        ],
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "Condition.identifier",

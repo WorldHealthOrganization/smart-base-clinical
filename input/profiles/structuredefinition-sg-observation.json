@@ -24,7 +24,7 @@
             "Results",
             "Tests"
           ],
-          "mustSupport" : false
+          "mustSupport" : true
         },
         {
           "id" : "Observation.extension:bodyPosition",
@@ -144,7 +144,7 @@
               ]
             }
           ],
-          "mustSupport" : false
+          "mustSupport" : true
         },
         {
           "id" : "Observation.value[x]",
@@ -154,7 +154,7 @@
         {
           "id" : "Observation.dataAbsentReason",
           "path" : "Observation.dataAbsentReason",
-          "mustSupport" : false
+          "mustSupport" : true
         },
         {
           "id" : "Observation.interpretation",

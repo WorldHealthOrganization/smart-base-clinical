@@ -18,13 +18,20 @@
       {
         "id" : "Organization",
         "path" : "Organization",
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "Organization.identifier",
         "path" : "Organization.identifier",
         "min" : 1,
         "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.identifier.use",
+        "path" : "Organization.identifier.use",
+        "min" : 1,
+        "max" : "1",
         "mustSupport" : true
       },
       {
@@ -68,6 +75,43 @@
       {
         "id" : "Organization.telecom",
         "path" : "Organization.telecom",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.extension:telecom-preferred",
+        "path" : "Organization.telecom.extension",
+        "sliceName" : "telecom-preferred",
+        "min" : 0,
+        "max" : "1",
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/iso21090-preferred"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.system",
+        "path" : "Organization.telecom.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.value",
+        "path" : "Organization.telecom.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.use",
+        "path" : "Organization.telecom.use",
+        "min" : 1,
+        "max" : "1",
         "mustSupport" : true
       },
       {

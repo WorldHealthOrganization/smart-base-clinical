@@ -60,12 +60,6 @@
       {
         "id": "ServiceRequest.status",
         "path": "ServiceRequest.status",
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
-        "fixedCode": "completed",
         "mustSupport": true
       },
       {
@@ -163,7 +157,7 @@
             ]
           }
         ],
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "ServiceRequest.performer",
@@ -179,7 +173,7 @@
             ]
           }
         ],
-        "mustSupport" : false
+        "mustSupport" : true
       }
     ]
   }

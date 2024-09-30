@@ -18,7 +18,7 @@
       {
         "id" : "RelatedPerson",
         "path" : "RelatedPerson",
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "RelatedPerson.identifier",

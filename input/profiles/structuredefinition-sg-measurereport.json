@@ -18,7 +18,7 @@
       {
         "id" : "MeasureReport",
         "path" : "MeasureReport",
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "MeasureReport.extension:reportedLocation",

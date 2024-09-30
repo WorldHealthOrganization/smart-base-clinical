@@ -18,7 +18,7 @@
       {
         "id" : "Group",
         "path" : "Group",
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "Group.identifier",

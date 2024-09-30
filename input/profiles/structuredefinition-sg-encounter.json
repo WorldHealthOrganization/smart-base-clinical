@@ -18,7 +18,7 @@
         {
           "id" : "Encounter",
           "path" : "Encounter",
-          "mustSupport" : false
+          "mustSupport" : true
         },
         {
           "id" : "Encounter.extension:statusReason",
@@ -98,6 +98,19 @@
           "mustSupport" : true
         },
         {
+          "id" : "Encounter.episodeOfCare",
+          "path" : "Encounter.episodeOfCare",
+          "type" : [
+            {
+              "code" : "Reference",
+              "targetProfile" : [
+                "http://smart.who.int/base-clinical/StructureDefinition/sg-episodeofcare"
+              ]
+            }
+          ],
+          "mustSupport" : true
+        },
+        {
           "id" : "Encounter.basedOn",
           "path" : "Encounter.basedOn",
           "type" : [
@@ -152,11 +165,6 @@
         {
           "id" : "Encounter.diagnosis.condition",
           "path" : "Encounter.diagnosis.condition",
-          "alias" : [
-            "Admission diagnosis",
-            "discharge diagnosis",
-            "indication"
-          ],
           "type" : [
             {
               "code" : "Reference",

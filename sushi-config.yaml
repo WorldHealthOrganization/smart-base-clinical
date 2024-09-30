@@ -24,7 +24,7 @@ dependencies:
 #      This IG leverages subscription constructs pre-adopted from R4B.  Importing this IG makes the relevant terminologies available.
   hl7.fhir.uv.cpg:
     id: cpg
-    version: 1.0.0
+    version: current
     reason: This IG uses computable guideline profiles and capabilities provided by CPG
   hl7.fhir.us.cqfmeasures:
     id: cqfm

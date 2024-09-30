@@ -18,7 +18,7 @@
         {
           "id" : "Immunization",
           "path" : "Immunization",
-          "mustSupport" : false
+          "mustSupport" : true
         },
         {
           "id" : "Immunization.identifier",
@@ -104,13 +104,11 @@
           "path" : "Immunization.recorded",
           "min" : 1,
           "max" : "1",
-          "mustSupport" : true
+            "mustSupport" : true
         },
         {
           "id" : "Immunization.primarySource",
           "path" : "Immunization.primarySource",
-          "min" : 1,
-          "max" : "1",
           "mustSupport" : true
         },
         {

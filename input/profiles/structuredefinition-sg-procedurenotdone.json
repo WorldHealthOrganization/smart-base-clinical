@@ -27,7 +27,7 @@
             "xpath" : "exists(f:extension)"
           }
         ],
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "Procedure.identifier",

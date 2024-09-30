@@ -18,7 +18,7 @@
       {
         "id" : "EpisodeOfCare",
         "path" : "EpisodeOfCare",
-        "mustSupport" : false
+        "mustSupport" : true
       },
       {
         "id" : "EpisodeOfCare.identifier",
