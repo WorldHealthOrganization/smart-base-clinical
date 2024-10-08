@@ -1,10 +1,5 @@
 == Suppressed Messages ==
 
-# These should match SGStructureDefinition, not clear why they do not?
-INFORMATION: ImplementationGuide/smart.who.int.base-clinical: ImplementationGuide.definition.resource[4]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: ImplementationGuide/smart.who.int.base-clinical: ImplementationGuide.definition.resource[14]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: ImplementationGuide/smart.who.int.base-clinical: ImplementationGuide.definition.resource[24]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-
 # No examples
 WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation'): The Implementation Guide contains no examples for this extension
 WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-allergyintolerance'): The Implementation Guide contains no examples for this profile
