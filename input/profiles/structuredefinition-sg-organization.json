@@ -1,0 +1,164 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sg-organization",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-organization",
+  "name": "SGOrganization",
+  "title": "WHO SMART Guidelines Organization",
+  "status": "draft",
+  "experimental": false,
+  "description": "The WHO SMART Guidelines Organization profile defines conformance requirements and exchange expectations for Organization resources in WHO Smart Guidelines content.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Organization",
+  "baseDefinition": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-organization",
+  "derivation": "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "Organization",
+        "path" : "Organization",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.identifier",
+        "path" : "Organization.identifier",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.identifier.use",
+        "path" : "Organization.identifier.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.identifier.system",
+        "path" : "Organization.identifier.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.identifier.value",
+        "path" : "Organization.identifier.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.active",
+        "path" : "Organization.active",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.type",
+        "path" : "Organization.type",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.name",
+        "path" : "Organization.name",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.alias",
+        "path" : "Organization.alias",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom",
+        "path" : "Organization.telecom",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.extension:telecom-preferred",
+        "path" : "Organization.telecom.extension",
+        "sliceName" : "telecom-preferred",
+        "min" : 0,
+        "max" : "1",
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/iso21090-preferred"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.system",
+        "path" : "Organization.telecom.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.value",
+        "path" : "Organization.telecom.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.telecom.use",
+        "path" : "Organization.telecom.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.address",
+        "path" : "Organization.address",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.address.use",
+        "path" : "Organization.address.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.address.text",
+        "path" : "Organization.address.text",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.partOf",
+        "path" : "Organization.partOf",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-organization"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.endpoint",
+        "path" : "Organization.endpoint",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.org/fhir/StructureDefinition/Endpoint"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      }
+    ]
+  }
+}

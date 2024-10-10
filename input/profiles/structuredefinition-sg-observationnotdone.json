@@ -1,0 +1,163 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sg-observationnotdone",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-observationnotdone",
+  "name": "SGObservationNotDone",
+  "title": "WHO SMART Guidelines Observation Not Done",
+  "status": "draft",
+  "experimental": false,
+  "description": "The WHO SMART Guidelines Observation Not Done profile defines conformance requirements and exchange expectations for Observation resources used to communicate that a particular observation (or class of observations) was not performed in WHO Smart Guidelines content.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-observation",
+  "derivation": "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "Observation",
+        "path" : "Observation",
+        "constraint" : [
+          {
+            "key" : "ond-1",
+            "severity" : "error",
+            "human" : "To indicate what observation was not performed, either at least one coding in the code element or a notDoneValueSet extension shall be provided",
+            "expression" : "code.extension('http://hl7.org/fhir/StructureDefinition/cqf-notDoneValueSet').exists() xor code.coding.exists()",
+            "xpath" : "exists(f:extension)"
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.identifier",
+        "path" : "Observation.identifier",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.identifier.use",
+        "path" : "Observation.identifier.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.identifier.system",
+        "path" : "Observation.identifier.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.identifier.value",
+        "path" : "Observation.identifier.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "fixedCode": "cancelled",
+        "mustSupport": true
+      },
+      {
+        "id" : "Observation.category",
+        "path" : "Observation.category",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.code",
+        "path" : "Observation.code",
+        "condition" : [
+          "ond-1"
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.code.extension:notDoneValueSet",
+        "path" : "Observation.code.extension",
+        "sliceName" : "notDoneValueSet",
+        "short" : "What was not done",
+        "definition" : "Specifies the value set that characterizes the events or activities that did not occur or were not performed.",
+        "requirements" : "Must be able to indicate the value set from which the expected event would be drawn, had it occurred.",
+        "min" : 1,
+        "max" : "1",
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/cqf-notDoneValueSet"
+            ]
+          }
+        ],
+        "condition" : [
+          "ond-1"
+        ],
+       "mustSupport" : true
+      },
+      {
+         "id" : "Observation.subject",
+         "path" : "Observation.subject",
+         "min" : 1,
+         "max" : "1",
+         "type" : [
+           {
+             "code" : "Reference",
+             "targetProfile" : [
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
+             ]
+           }
+         ],
+         "mustSupport" : true
+       },
+       {
+         "id" : "Observation.encounter",
+         "path" : "Observation.encounter",
+         "type" : [
+           {
+             "code" : "Reference",
+             "targetProfile" : [
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
+             ]
+           }
+         ],
+         "mustSupport" : true
+       },
+       {
+         "id" : "Observation.issued",
+         "path" : "Observation.issued",
+         "min" : 1,
+         "max" : "1",
+         "mustSupport" : true
+       },
+       {
+         "id" : "Observation.performer",
+         "path" : "Observation.performer",
+         "type" : [
+           {
+             "code" : "Reference",
+             "targetProfile" : [
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+               "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson"
+             ]
+           }
+         ],
+         "mustSupport" : false
+       }
+   ]
+  }
+}

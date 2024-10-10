@@ -1,0 +1,138 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sg-procedurenotdone",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-procedurenotdone",
+  "name": "SGProcedureNotDone",
+  "title": "WHO SMART Guidelines Procedure Not Done",
+  "status": "draft",
+  "experimental": false,
+  "description": "The WHO SMART Guidelines Procedure Not Done profile defines conformance requirements and exchange expectations for Procedure resources used to communicate that a particular procedure (or class of procedures) was not performed in WHO Smart Guidelines content.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-procedure",
+  "derivation": "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "Procedure",
+        "path" : "Procedure",
+        "constraint" : [
+          {
+            "key" : "pnd-1",
+            "severity" : "error",
+            "human" : "To indicate what procedure was not performed, either at least one coding in the code element or a notDoneValueSet extension shall be provided",
+            "expression" : "code.extension('http://hl7.org/fhir/StructureDefinition/cqf-notDoneValueSet').exists() xor code.coding.exists()",
+            "xpath" : "exists(f:extension)"
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.identifier",
+        "path" : "Procedure.identifier",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.identifier.use",
+        "path" : "Procedure.identifier.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.identifier.system",
+        "path" : "Procedure.identifier.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.identifier.value",
+        "path" : "Procedure.identifier.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.status",
+        "path" : "Procedure.status",
+        "min" : 1,
+        "max" : "1",
+        "type" : [
+          {
+            "code" : "code"
+          }
+        ],
+        "fixedCode" : "not-done",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.statusReason",
+        "path" : "Procedure.statusReason",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.code",
+        "path" : "Procedure.code",
+        "condition": [
+          "pnd-1"
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.code.extension:notDoneValueSet",
+        "path" : "Procedure.code.extension",
+        "sliceName" : "notDoneValueSet",
+        "short" : "What was not performed",
+        "definition" : "Specifies the value set that characterizes the events or activities that did not occur or were not performed.",
+        "requirements" : "Must be able to indicate the value set from which the expected event would be drawn, had it occurred.",
+        "min" : 1,
+        "max" : "1",
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/cqf-notDoneValueSet"
+            ]
+          }
+        ],
+        "condition": [
+          "pnd-1"
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.subject",
+        "path" : "Procedure.subject",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Procedure.encounter",
+        "path" : "Procedure.encounter",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      }
+    ]
+  }
+}

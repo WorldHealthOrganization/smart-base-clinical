@@ -1,0 +1,146 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sg-servicerequest",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-servicerequest",
+  "name": "SGServiceRequest",
+  "title": "WHO SMART Guidelines ServiceRequest",
+  "status": "draft",
+  "experimental": false,
+  "description": "The WHO SMART Guidelines ServiceRequest profile defines conformance requirements and exchange expectations for ServiceRequest resources in WHO Smart Guidelines content.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ServiceRequest",
+  "baseDefinition": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-servicerequest",
+  "derivation": "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "ServiceRequest",
+        "path" : "ServiceRequest",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.identifier",
+        "path" : "ServiceRequest.identifier",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.identifier.use",
+        "path" : "ServiceRequest.identifier.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.identifier.system",
+        "path" : "ServiceRequest.identifier.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.identifier.value",
+        "path" : "ServiceRequest.identifier.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.status",
+        "path" : "ServiceRequest.status",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.code",
+        "path" : "ServiceRequest.code",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.subject",
+        "path" : "ServiceRequest.subject",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.encounter",
+        "path" : "ServiceRequest.encounter",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.occurrence[x]",
+        "path" : "ServiceRequest.occurrence[x]",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.asNeeded[x]",
+        "path" : "ServiceRequest.asNeeded[x]",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.authoredOn",
+        "path" : "ServiceRequest.authoredOn",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.requester",
+        "path" : "ServiceRequest.requester",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.performer",
+        "path" : "ServiceRequest.performer",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.reasonCode",
+        "path" : "ServiceRequest.reasonCode",
+        "mustSupport" : true
+      },
+      {
+        "id" : "ServiceRequest.bodySite",
+        "path" : "ServiceRequest.bodySite",
+        "mustSupport" : true
+      }
+    ]
+  }
+}

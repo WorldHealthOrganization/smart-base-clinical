@@ -1,0 +1,197 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sg-condition",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-condition",
+  "name": "SGCondition",
+  "title": "WHO SMART Guidelines Condition",
+  "status": "draft",
+  "experimental": false,
+  "description": "The WHO SMART Guidelines Condition profile defines conformance requirements and exchange expectations for Condition resources in WHO Smart Guidelines content.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-condition",
+  "derivation": "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "Condition",
+        "path" : "Condition",
+        "definition" : "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.identifier",
+        "path" : "Condition.identifier",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.identifier.use",
+        "path" : "Condition.identifier.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.identifier.system",
+        "path" : "Condition.identifier.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.identifier.value",
+        "path" : "Condition.identifier.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.clinicalStatus",
+        "path" : "Condition.clinicalStatus",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.verificationStatus",
+        "path" : "Condition.verificationStatus",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.category",
+        "path" : "Condition.category",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.severity",
+        "path" : "Condition.severity",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.code",
+        "path" : "Condition.code",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.bodySite",
+        "path" : "Condition.bodySite",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.subject",
+        "path" : "Condition.subject",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.encounter",
+        "path" : "Condition.encounter",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.onset[x]",
+        "path" : "Condition.onset[x]",
+        "type" : [
+          {
+            "code" : "dateTime"
+          },
+          {
+            "code" : "Age"
+          },
+          {
+            "code" : "Period"
+          },
+          {
+            "code" : "Range"
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.abatement[x]",
+        "path" : "Condition.abatement[x]",
+        "type" : [
+          {
+            "code" : "dateTime"
+          },
+          {
+            "code" : "Age"
+          },
+          {
+            "code" : "Period"
+          },
+          {
+            "code" : "Range"
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.recordedDate",
+        "path" : "Condition.recordedDate",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.asserter",
+        "path" : "Condition.asserter",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.stage",
+        "path" : "Condition.stage",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.stage.summary",
+        "path" : "Condition.stage.summary",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Condition.stage.assessment",
+        "path" : "Condition.stage.assessment",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-clinicalimpression",
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-observation"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      }
+    ]
+  }
+}

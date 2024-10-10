@@ -1,5 +1,28 @@
 == Suppressed Messages ==
 
-# Add warning and/or information messages here after you've confirmed that they aren't really a problem
-# (And include comments like this justifying why)
-# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+# No examples
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-allergyintolerance'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-careplan'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-careteam'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-condition'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-encounter'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-episodeofcare'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-group'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-immunization'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-immunizationnotdone'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-location'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-measurereport'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-medicationnotrequested'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-medicationrequest'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-observation'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-observationnotdone'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-organization'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-patient'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-procedure'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-procedurenotdone'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-servicenotrequested'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/base-clinical/StructureDefinition/sg-servicerequest'): The Implementation Guide contains no examples for this profile

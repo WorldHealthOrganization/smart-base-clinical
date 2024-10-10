@@ -1,0 +1,141 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sg-immunizationnotdone",
+  "url": "http://smart.who.int/base-clinical/StructureDefinition/sg-immunizationnotdone",
+  "name": "SGImmunizationNotDone",
+  "title": "WHO SMART Guidelines Immunization Not Done",
+  "status": "draft",
+  "experimental": false,
+  "description": "The WHO SMART Guidelines Immunization Not Done profile defines conformance requirements and exchange expectations for Immunization resources used to communicate that a specific immunization (or class of immunizations) was not done in WHO Smart Guidelines content.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Immunization",
+  "baseDefinition": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-immunization",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Immunization",
+        "path": "Immunization",
+        "constraint" : [
+          {
+            "key" : "ind-1",
+            "severity" : "error",
+            "human" : "To indicate what immunization was not done, either at least one coding in the vaccineCode element or a notDoneValueSet extension shall be provided",
+            "expression" : "vaccineCode.extension('http://hl7.org/fhir/StructureDefinition/cqf-notDoneValueSet').exists() xor vaccineCode.coding.exists()",
+            "xpath" : "exists(f:extension)"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id" : "Immunization.identifier",
+        "path" : "Immunization.identifier",
+        "min" : 1,
+        "max" : "*",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Immunization.identifier.use",
+        "path" : "Immunization.identifier.use",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Immunization.identifier.system",
+        "path" : "Immunization.identifier.system",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Immunization.identifier.value",
+        "path" : "Immunization.identifier.value",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      },
+      {
+        "id": "Immunization.status",
+        "path": "Immunization.status",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "fixedCode": "not-done",
+        "mustSupport": true
+      },
+      {
+        "id": "Immunization.statusReason",
+        "path": "Immunization.statusReason",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id" : "Immunization.vaccineCode",
+        "path" : "Immunization.vaccineCode",
+        "condition" : [
+          "ind-1"
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Immunization.vaccineCode.extension:notDoneValueSet",
+        "path" : "Immunization.vaccineCode.extension",
+        "sliceName" : "notDoneValueSet",
+        "short" : "What wasn't administered",
+        "min" : 0,
+        "max" : "1",
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/cqf-notDoneValueSet"
+            ]
+          }
+        ],
+        "condition" : [
+          "ind-1"
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Immunization.patient",
+        "path" : "Immunization.patient",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-patient"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Immunization.encounter",
+        "path" : "Immunization.encounter",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter"
+            ]
+          }
+        ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Immunization.recorded",
+        "path" : "Immunization.recorded",
+        "min" : 1,
+        "max" : "1",
+        "mustSupport" : true
+      }
+    ]
+  }
+}
