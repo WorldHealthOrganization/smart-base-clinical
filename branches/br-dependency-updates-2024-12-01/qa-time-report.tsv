@@ -1,0 +1,27 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-smart.who.int.base-clinical.json	13598	-	0	0	0	0	0	0	6	216	0	0	0	0	0	0	0	0	0	0	119	182	0	0	1	4	0	1
+input/extensions/structuredefinition-sg-reportedLocation.json	1564	6	0	0	0	0	0	11	0	38	0	0	0	0	0	0	0	0	0	0	62	1538	0	0	0	2	0	0
+input/profiles/structuredefinition-sg-allergyintolerance.json	8928	6	1	0	0	0	0	378	0	71	0	0	0	0	0	0	0	2	0	0	381	1022	0	0	0	10	1	1
+input/profiles/structuredefinition-sg-careplan.json	5705	4	0	0	0	0	0	244	0	35	0	0	0	0	0	0	0	1	0	0	387	979	0	0	0	10	0	0
+input/profiles/structuredefinition-sg-careteam.json	5146	3	0	0	0	0	0	33	1	30	0	0	0	0	0	0	0	0	0	0	304	548	0	0	0	10	0	1
+input/profiles/structuredefinition-sg-condition.json	5350	4	0	0	0	0	0	55	0	35	0	0	1	0	0	0	0	1	0	0	396	599	0	0	0	9	0	1
+input/profiles/structuredefinition-sg-encounter.json	6606	3	0	0	0	0	0	36	0	45	0	0	0	0	0	0	0	1	0	0	491	849	0	0	0	11	0	1
+input/profiles/structuredefinition-sg-episodeofcare.json	4567	4	0	0	0	0	0	31	0	23	0	0	0	0	0	0	0	0	0	0	269	291	0	0	0	6	0	1
+input/profiles/structuredefinition-sg-group.json	1963	3	0	0	0	0	0	27	0	14	0	0	0	0	0	0	0	0	0	0	199	445	0	0	0	5	0	0
+input/profiles/structuredefinition-sg-immunization.json	5111	3	0	0	0	0	0	20	0	26	0	0	0	0	0	0	0	1	0	0	369	807	0	0	0	9	0	1
+input/profiles/structuredefinition-sg-immunizationnotdone.json	4177	4	0	0	0	0	0	18	0	37	0	0	0	0	0	0	0	1	0	0	343	662	0	0	0	23	0	1
+input/profiles/structuredefinition-sg-location.json	4643	3	0	0	0	0	0	19	0	34	0	0	1	0	0	0	0	0	0	0	328	573	0	0	0	10	1	0
+input/profiles/structuredefinition-sg-measurereport.json	3604	3	0	0	0	0	0	32	0	22	0	0	0	0	0	0	0	1	0	0	300	483	0	0	0	7	0	1
+input/profiles/structuredefinition-sg-medicationnotrequested.json	6009	4	1	0	0	0	0	17	0	26	0	0	0	0	0	0	0	0	0	0	391	444	0	0	0	11	0	1
+input/profiles/structuredefinition-sg-medicationrequest.json	8916	3	0	0	0	0	0	64	0	39	0	0	0	0	0	0	0	1	0	0	614	966	0	1	0	16	0	1
+input/profiles/structuredefinition-sg-observation.json	7434	4	0	0	0	0	0	16	0	38	0	0	0	0	0	0	0	1	0	0	437	739	0	0	0	16	0	0
+input/profiles/structuredefinition-sg-observationnotdone.json	5103	4	0	0	0	0	0	18	0	33	0	0	0	0	0	0	0	1	0	0	356	457	0	0	0	11	0	1
+input/profiles/structuredefinition-sg-organization.json	4376	3	0	0	0	0	0	14	1	30	0	0	1	0	0	0	0	0	0	0	305	276	0	0	0	10	0	1
+input/profiles/structuredefinition-sg-patient.json	6933	4	0	0	0	0	0	20	0	42	0	0	0	0	0	0	0	1	0	0	463	490	0	0	0	13	0	1
+input/profiles/structuredefinition-sg-practitioner.json	3462	3	0	0	0	0	0	15	0	26	0	0	0	0	0	0	0	0	0	0	265	265	0	0	0	8	0	0
+input/profiles/structuredefinition-sg-practitionerrole.json	4667	4	0	0	0	0	0	13	0	20	0	0	0	0	0	1	0	1	0	0	277	237	0	0	0	8	1	1
+input/profiles/structuredefinition-sg-procedure.json	4326	3	1	0	0	0	0	16	0	21	0	0	0	0	0	0	0	0	0	0	376	425	0	0	0	9	0	0
+input/profiles/structuredefinition-sg-procedurenotdone.json	4191	3	0	0	0	0	0	14	0	68	0	0	0	0	0	0	0	1	0	0	301	412	0	0	0	9	0	1
+input/profiles/structuredefinition-sg-relatedperson.json	4289	3	0	0	0	0	0	13	0	27	0	0	0	0	0	0	0	0	0	0	280	275	0	0	0	8	0	0
+input/profiles/structuredefinition-sg-servicenotrequested.json	5608	4	0	0	0	0	0	14	0	22	0	0	0	0	0	0	0	1	0	0	307	279	0	0	0	12	0	1
+input/profiles/structuredefinition-sg-servicerequest.json	4462	3	0	0	0	0	0	14	0	22	0	0	1	0	0	0	0	0	0	0	290	281	0	0	0	9	0	1

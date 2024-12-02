@@ -1,0 +1,19 @@
+{
+  "url" : "http://smart.who.int/base-clinical/ImplementationGuide/smart.who.int.base-clinical",
+  "name" : "SMARTBaseClinical",
+  "title" : "SMART Base Clinical",
+  "description" : "This implementation guide defines common clinical artifacts for use with WHO SMART Guidelines content",
+  "status" : "draft",
+  "package-id" : "smart.who.int.base-clinical",
+  "ig-ver" : "1.0.0",
+  "date" : "Mon, 02 Dec, 2024 08:17:05 +0000",
+  "dateISO8601" : "2024-12-02T08:17:05+00:00",
+  "errs" : 0,
+  "warnings" : 0,
+  "hints" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 25,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2130494688
+}
