@@ -26,7 +26,7 @@ dependencies:
     id: cpg
     version: 2.0.0
     reason: This IG uses computable guideline profiles and capabilities provided by CPG
-  hl7.fhir.us.cqfm:
+  hl7.fhir.us.cqfmeasures:
     id: cqfm
     version: 5.0.0
     reason: This IG uses computable measure capabilities provided by the Quality Measure IG
