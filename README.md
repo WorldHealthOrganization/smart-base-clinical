@@ -18,7 +18,6 @@ Continuous Build: __http://WorldHealthOrganization.github.io/smart-base-clinical
 Canonical / permanent URL: 
 <br> </br>
 
-
 This framework is published under a Creative Commons - IGO [license](LICENSE.md).
 
 ## Changes and feedback
