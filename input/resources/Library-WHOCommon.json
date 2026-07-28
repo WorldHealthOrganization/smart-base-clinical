@@ -1,0 +1,23 @@
+{
+  "resourceType": "Library",
+  "id": "WHOCommon",
+  "name": "WHOCommon",
+  "title": "WHO Common",
+  "status": "active",
+  "experimental": false,
+  "type": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/library-type",
+      "code": "logic-library"
+    } ]
+  },
+  "description": "Defines common logic and functions usable across all WHO SMART Guideline content",
+  "topic": [ {
+    "text": "FHIR"
+  }, {
+    "text": "CQL"
+  } ],
+  "content": [ {
+    "id": "ig-loader-WHOCommon.cql"
+  } ]
+}
