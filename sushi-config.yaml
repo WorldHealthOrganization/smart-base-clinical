@@ -42,7 +42,7 @@ dependencies:
     reason: This IG uses computable measure capabilities provided by the Quality Measure IG
   smart.who.int.base:
     id: sb
-    version: dev
+    version: 1.0.0
     reason: This IG uses SMART base computable guideline capabilities
 
 pages:
