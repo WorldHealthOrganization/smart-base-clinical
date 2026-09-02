@@ -5,7 +5,7 @@ title: SMART Base Clinical
 description: This implementation guide defines common clinical artifacts for use with WHO SMART Guidelines content
 status: draft # draft | active | retired | unknown
 experimental: false
-version: 1.0.0
+version: 2.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -22,18 +22,28 @@ dependencies:
 #    version: 4.6.0
 #    reason: |
 #      This IG leverages subscription constructs pre-adopted from R4B.  Importing this IG makes the relevant terminologies available.
+  hl7.terminology: 7.3.0
+  hl7.fhir.uv.extensions.r4: 5.3.0
+  hl7.fhir.uv.cql:
+    id: cql
+    version: 2.0.0
+    reason: This IG uses CQL profiles and capabilities provided by the Using CQL With FHIR IG
+  hl7.fhir.uv.crmi:
+    id: crmi
+    version: 2.0.0
+    reason: This IG uses content management profiles and capabilities provided by the Canonical Resource Management Infrastructure (CRMI) IG
   hl7.fhir.uv.cpg:
     id: cpg
     version: 2.0.0
     reason: This IG uses computable guideline profiles and capabilities provided by CPG
-  hl7.fhir.us.cqfmeasures:
-    id: cqfm
-    version: 5.0.0
+  hl7.fhir.uv.cqm:
+    id: cqm
+    version: 2.0.0-ballot
     reason: This IG uses computable measure capabilities provided by the Quality Measure IG
   smart.who.int.base:
     id: sb
-    version: 0.1.0
-    reason: This IG uses SMART base computable guildeine capabilities
+    version: 1.0.0
+    reason: This IG uses SMART base computable guideline capabilities
 
 pages:
   index.md:
@@ -51,6 +61,17 @@ menu:
   Indices:
     Artifact Index: artifacts.html
 
+parameters:
+  apply-contact: true
+  apply-publisher: true
+  apply-version: true
+  default-version: true
+  apply-jurisdiction: true
+  apply-license: true
+  apply-copyright: true
+  excludettl: true
+  path-binary: input/cql
+  path-liquid-ig: templates/liquid
 
 meta:
   profile:
