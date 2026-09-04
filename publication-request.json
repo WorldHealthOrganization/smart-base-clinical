@@ -10,5 +10,8 @@
     "ci-build": "http://worldhealthorganization.github.io/smart-base-clinical",    
     "first": true,
     "status" : "release",
-    "sequence" : "Releases"
+    "sequence" : "Releases",
+    "registry-authority" : "World Health Organization",
+    "registry-description": "Implementation guide for SMART Base Clinical, including clinical profiles, value sets, maps, examples, and implementation notes.",
+    "registry-country": "uv"
   }
