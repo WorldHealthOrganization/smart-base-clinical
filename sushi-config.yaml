@@ -3,9 +3,9 @@ canonical: http://smart.who.int/base-clinical
 name: SMARTBaseClinical
 title: SMART Base Clinical
 description: This implementation guide defines common clinical artifacts for use with WHO SMART Guidelines content
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 experimental: false
-version: 2.0.0
+version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use

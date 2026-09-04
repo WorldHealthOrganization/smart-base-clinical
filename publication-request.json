@@ -1,0 +1,14 @@
+{
+    "package-id" : "smart.who.int.base-clinical",
+    "title" : "SMART Base Clinical", 
+    "category" : "base",
+    "introduction" : "This implementation guide defines common clinical artifacts for use with WHO SMART Guidelines content",
+    "version" : "1.0.0",
+    "desc" : "1.0.0 release",
+    "mode" : "milestone",    
+    "path" : "http://smart.who.int/base-clinical/1.0.0",
+    "ci-build": "http://worldhealthorganization.github.io/smart-base-clinical",    
+    "first": true,
+    "status" : "release",
+    "sequence" : "Releases"
+  }
