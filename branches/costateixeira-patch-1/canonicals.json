@@ -1,0 +1,184 @@
+[
+  {
+    "id" : "smart.who.int.base-clinical",
+    "type" : "ImplementationGuide",
+    "url" : "http://smart.who.int/base-clinical/ImplementationGuide/smart.who.int.base-clinical",
+    "version" : "1.0.0",
+    "name" : "SMARTBaseClinical"
+  },
+  {
+    "id" : "sg-allergyintolerance",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-allergyintolerance",
+    "version" : "1.0.0",
+    "name" : "SGAllergyIntolerance"
+  },
+  {
+    "id" : "sg-careplan",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-careplan",
+    "version" : "1.0.0",
+    "name" : "SGCarePlan"
+  },
+  {
+    "id" : "sg-careteam",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-careteam",
+    "version" : "1.0.0",
+    "name" : "SGCareTeam"
+  },
+  {
+    "id" : "sg-condition",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-condition",
+    "version" : "1.0.0",
+    "name" : "SGCondition"
+  },
+  {
+    "id" : "sg-encounter",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-encounter",
+    "version" : "1.0.0",
+    "name" : "SGEncounter"
+  },
+  {
+    "id" : "sg-episodeofcare",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-episodeofcare",
+    "version" : "1.0.0",
+    "name" : "SGEpisodeOfCare"
+  },
+  {
+    "id" : "sg-group",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-group",
+    "version" : "1.0.0",
+    "name" : "SGGroup"
+  },
+  {
+    "id" : "sg-immunization",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-immunization",
+    "version" : "1.0.0",
+    "name" : "SGImmunization"
+  },
+  {
+    "id" : "sg-immunizationnotdone",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-immunizationnotdone",
+    "version" : "1.0.0",
+    "name" : "SGImmunizationNotDone"
+  },
+  {
+    "id" : "sg-location",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-location",
+    "version" : "1.0.0",
+    "name" : "SGLocation"
+  },
+  {
+    "id" : "sg-measurereport",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-measurereport",
+    "version" : "1.0.0",
+    "name" : "SGMeasureReport"
+  },
+  {
+    "id" : "sg-medicationnotrequested",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-medicationnotrequested",
+    "version" : "1.0.0",
+    "name" : "SGMedicationNotRequested"
+  },
+  {
+    "id" : "sg-medicationrequest",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-medicationrequest",
+    "version" : "1.0.0",
+    "name" : "SGMedicationRequest"
+  },
+  {
+    "id" : "sg-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-observation",
+    "version" : "1.0.0",
+    "name" : "SGObservation"
+  },
+  {
+    "id" : "sg-observationnotdone",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-observationnotdone",
+    "version" : "1.0.0",
+    "name" : "SGObservationNotDone"
+  },
+  {
+    "id" : "sg-organization",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-organization",
+    "version" : "1.0.0",
+    "name" : "SGOrganization"
+  },
+  {
+    "id" : "sg-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-patient",
+    "version" : "1.0.0",
+    "name" : "SGPatient"
+  },
+  {
+    "id" : "sg-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-practitioner",
+    "version" : "1.0.0",
+    "name" : "SGPractitioner"
+  },
+  {
+    "id" : "sg-practitionerrole",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-practitionerrole",
+    "version" : "1.0.0",
+    "name" : "SGPractitionerRole"
+  },
+  {
+    "id" : "sg-procedure",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-procedure",
+    "version" : "1.0.0",
+    "name" : "SGProcedure"
+  },
+  {
+    "id" : "sg-procedurenotdone",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-procedurenotdone",
+    "version" : "1.0.0",
+    "name" : "SGProcedureNotDone"
+  },
+  {
+    "id" : "sg-relatedperson",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-relatedperson",
+    "version" : "1.0.0",
+    "name" : "SGRelatedPerson"
+  },
+  {
+    "id" : "sg-reportedLocation",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation",
+    "version" : "1.0.0",
+    "name" : "SGReportedLocation"
+  },
+  {
+    "id" : "sg-servicenotrequested",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-servicenotrequested",
+    "version" : "1.0.0",
+    "name" : "SGServiceNotRequested"
+  },
+  {
+    "id" : "sg-servicerequest",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-servicerequest",
+    "version" : "1.0.0",
+    "name" : "SGServiceRequest"
+  }
+]

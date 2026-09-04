@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Library xmlns="http://hl7.org/fhir" xmlns:html="http://www.w3.org/1999/xhtml">
+  <id value="WHOCommon" />
+  <text>
+    <status value="extensions" /><html:div>
+  <html:table class="narrative-table">
+    <html:tbody>
+<html:tr>
+
+
+<html:th colspan="2" scope="row" class="row-header"><html:a name="metadata"> </html:a>Metadata</html:th>
+
+
+</html:tr>
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Title</html:th>
+
+
+
+<html:td class="content-container">WHO Common</html:td>
+
+
+</html:tr>
+
+
+
+
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Version</html:th>
+
+
+
+<html:td class="content-container">1.0.0</html:td>
+
+
+</html:tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Jurisdiction</html:th>
+
+
+
+<html:td class="content-container">
+    World
+
+
+</html:td>
+
+
+</html:tr>
+
+
+
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Topic</html:th>
+
+
+
+<html:td class="content-container">FHIR
+</html:td>
+
+
+</html:tr>
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Topic</html:th>
+
+
+
+<html:td class="content-container">CQL
+</html:td>
+
+
+</html:tr>
+
+
+
+
+
+
+
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Steward (Publisher)</html:th>
+
+
+
+<html:td class="content-container">WHO</html:td>
+
+
+</html:tr>
+
+
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Steward Contact</html:th>
+
+
+
+<html:td class="content-container">WHO</html:td>
+
+
+</html:tr>
+
+
+
+
+
+
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Description</html:th>
+
+
+
+<html:td class="content-container"><html:div><html:p>Defines common logic and functions usable across all WHO SMART Guideline content</html:p>
+</html:div></html:td>
+
+
+</html:tr>
+
+
+
+
+
+
+
+
+
+<html:tr>
+
+
+<html:th scope="row" class="row-header">Type</html:th>
+
+
+
+<html:td class="content-container">
+    <html:a href="http://terminology.hl7.org/7.3.0/CodeSystem-library-type.html">http://terminology.hl7.org/CodeSystem/library-type</html:a>#logic-library
+
+
+</html:td>
+
+
+</html:tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html:tr>
+
+
+<html:th colspan="2" scope="row" class="row-header"><html:a name="parameters"> </html:a>Parameters</html:th>
+
+
+</html:tr>
+
+<html:tr>
+  
+
+<html:th scope="row" class="row-header" />
+
+
+  <html:td class="content-container">
+    <html:table>
+      <html:thead>
+        <html:tr>
+          <html:td><html:em>Name</html:em></html:td>
+          <html:td><html:em>Use</html:em></html:td>
+          <html:td><html:em>Card.</html:em></html:td>
+          <html:td><html:em>Type</html:em></html:td>
+          <html:td><html:em>Documentation</html:em></html:td>
+        </html:tr>
+      </html:thead>
+      <html:tbody>
+      
+        <html:tr>
+          <html:td>Patient</html:td>
+          <html:td>Out</html:td>
+          <html:td>0..1</html:td>
+          <html:td>Patient</html:td>
+          <html:td />
+        </html:tr>
+      
+      </html:tbody>
+    </html:table>
+  </html:td>
+</html:tr>
+
+
+
+
+
+
+
+
+  <html:tr>
+
+
+<html:th colspan="2" scope="row" class="row-header">Library Content</html:th>
+
+
+</html:tr>
+  
+    
+    <html:tr>
+      <html:th scope="row" class="row-header">CQL Content</html:th>
+      <html:td>
+        <html:a name="cql-content"> </html:a>
+        <html:pre style="border: none;" class="content-container highlight language-cql"><html:code class="language-cql">library WHOCommon version '2.0.0'
+
+using FHIR version '4.0.1'
+
+include hl7.fhir.uv.cql.FHIRHelpers version '4.0.1'
+include hl7.fhir.uv.cql.FHIRCommon version '2.0.0' called FC
+
+context Patient
+
+define fluent function reportedLocation(measureReport MeasureReport):
+  measureReport.ext('http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation').value as Reference
+
+define function Official(identifiers List&lt;Identifier&gt;):
+  singleton from (identifiers I where I.use = 'official')
+
+define fluent function official(identifiers List&lt;Identifier&gt;):
+  singleton from (identifiers I where I.use = 'official')
+
+define function Official(addresses List&lt;Address&gt;):
+  singleton from (addresses A where A.use = 'official')
+
+define fluent function official(addresses List&lt;Address&gt;):
+  singleton from (addresses A where A.use = 'official')
+
+define function Official(names List&lt;HumanName&gt;):
+  singleton from (names N where N.use = 'official')
+
+define fluent function official(names List&lt;HumanName&gt;):
+  singleton from (names N where N.use = 'official')
+
+define function Mobile(contactPoints List&lt;ContactPoint&gt;):
+  singleton from (contactPoints P where P.use = 'mobile')
+
+define fluent function mobile(contactPoints List&lt;ContactPoint&gt;):
+  singleton from (contactPoints P where P.use = 'mobile')
+
+/* NOTE: Should use .single() instead of Only() */
+define function Only(allergies List&lt;AllergyIntolerance&gt;):
+  singleton from allergies
+
+define function Only(appointments List&lt;Appointment&gt;):
+  singleton from appointments
+
+define function Only(careplans List&lt;CarePlan&gt;):
+  singleton from careplans
+
+define function Only(conditions List&lt;Condition&gt;):
+  singleton from conditions
+
+define function Only(encounters List&lt;Encounter&gt;):
+  singleton from encounters
+
+define function Only(immunizations List&lt;Immunization&gt;):
+  singleton from immunizations
+
+define function Only(medicationrequests List&lt;MedicationRequest&gt;):
+  singleton from medicationrequests
+
+define function Only(observations List&lt;Observation&gt;):
+  singleton from observations
+
+define function Only(procedures List&lt;Procedure&gt;):
+  singleton from procedures
+
+define function Only(serviceRequests List&lt;ServiceRequest&gt;):
+  singleton from serviceRequests
+
+define function Only(dosages List&lt;Dosage&gt;):
+  singleton from dosages
+
+define function Only(doses List&lt;FHIR.Dosage.DoseAndRate&gt;):
+  singleton from doses
+
+define function Earliest(observations List&lt;Observation&gt;):
+  First(
+    observations O
+      sort by start of effective.toInterval()
+  )
+
+define fluent function earliest(observations List&lt;Observation&gt;):
+  First(
+    observations O
+      sort by start of effective.toInterval()
+  )
+
+define function Latest(observations List&lt;Observation&gt;):
+  Last(
+    observations O
+      sort by start of effective.toInterval()
+  )
+
+define fluent function latest(observations List&lt;Observation&gt;):
+  Last(
+    observations O
+      sort by start of effective.toInterval()
+  )
+
+define function MostRecent(observations List&lt;Observation&gt;):
+  Last(
+    observations O
+      sort by start of effective.toInterval()
+  )
+
+define fluent function mostRecent(observations List&lt;Observation&gt;):
+  Last(
+    observations O
+      sort by start of effective.toInterval()
+  )
+
+define function MostRecent(procedures List&lt;Procedure&gt;):
+  Last(
+    procedures P
+      sort by start of performed.toInterval()
+    )
+
+define fluent function mostRecent(procedures List&lt;Procedure&gt;):
+  Last(
+    procedures P
+      sort by start of performed.toInterval()
+  )
+
+define function Lowest(observations List&lt;Observation&gt;):
+  First(
+    observations O
+      sort by (value as FHIR.Quantity)
+  )
+
+define fluent function lowest(observations List&lt;Observation&gt;):
+  First(
+    observations O
+      sort by (value as FHIR.Quantity)
+  )
+
+define function Highest(observations List&lt;Observation&gt;):
+  Last(
+    observations O
+      sort by (value as FHIR.Quantity)
+  )
+
+define fluent function highest(observations List&lt;Observation&gt;):
+  Last(
+    observations O
+      sort by (value as FHIR.Quantity)
+  )
+</html:code></html:pre>
+      </html:td>
+    </html:tr>
+    
+  
+    
+    <html:tr>
+      <html:th scope="row" class="row-header">ELM JSON Content</html:th>
+      <html:td>
+        <html:pre style="border: none;" class="content-container highlight language-cql"><html:code>Encoded data </html:code></html:pre>
+      </html:td>
+    </html:tr>
+    
+  
+
+
+<html:tr>
+
+
+<html:th colspan="2" scope="row" class="row-header"><html:a name="related-artifacts"> </html:a>Citations and References</html:th>
+
+
+</html:tr>
+
+
+<html:tr>
+  
+  
+  
+  
+  
+
+<html:th scope="row" class="row-header">Dependency</html:th>
+
+
+  
+  
+  <html:td class="content-container">
+    
+    <html:em>Description</html:em>: Library FHIRHelpers
+    
+    <html:br />
+    
+    
+    
+    
+    
+    
+    <html:em>Resource</html:em>: <html:a href="http://hl7.org/fhir/uv/cql/STU2/Library-FHIRHelpers.html">http://hl7.org/fhir/uv/cql/Library/FHIRHelpers|4.0.1</html:a>
+    <html:br />
+    <html:em>Canonical URL</html:em>: <html:tt>http://hl7.org/fhir/uv/cql/Library/FHIRHelpers|4.0.1</html:tt>
+    
+    
+    
+  </html:td>
+</html:tr>
+
+<html:tr>
+  
+  
+  
+  
+  
+
+<html:th scope="row" class="row-header">Dependency</html:th>
+
+
+  
+  
+  <html:td class="content-container">
+    
+    <html:em>Description</html:em>: Library FC
+    
+    <html:br />
+    
+    
+    
+    
+    
+    
+    <html:em>Resource</html:em>: <html:a href="http://hl7.org/fhir/uv/cql/STU2/Library-FHIRCommon.html">http://hl7.org/fhir/uv/cql/Library/FHIRCommon|2.0.0</html:a>
+    <html:br />
+    <html:em>Canonical URL</html:em>: <html:tt>http://hl7.org/fhir/uv/cql/Library/FHIRCommon|2.0.0</html:tt>
+    
+    
+    
+  </html:td>
+</html:tr>
+
+
+
+
+<html:tr>
+  <html:th colspan="2" scope="row" class="row-header">Generated using version 0.5.6 of the sample-content-ig Liquid templates</html:th>
+</html:tr>
+
+    </html:tbody>
+  </html:table>
+</html:div>
+  </text>
+  <url value="http://smart.who.int/base-clinical/Library/WHOCommon" />
+  <version value="1.0.0" />
+  <name value="WHOCommon" />
+  <title value="WHO Common" />
+  <status value="active" />
+  <experimental value="false" />
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/library-type" />
+      <code value="logic-library" />
+    </coding>
+  </type>
+  <date value="2026-09-04T05:37:50+00:00" />
+  <publisher value="WHO" />
+  <contact>
+    <name value="WHO" />
+    <telecom>
+      <system value="url" />
+      <value value="http://who.int" />
+    </telecom>
+  </contact>
+  <description value="Defines common logic and functions usable across all WHO SMART Guideline content" />
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm" />
+      <code value="001" />
+      <display value="World" />
+    </coding>
+  </jurisdiction>
+  <topic>
+    <text value="FHIR" />
+  </topic>
+  <topic>
+    <text value="CQL" />
+  </topic>
+  <relatedArtifact>
+    <type value="depends-on" />
+    <display value="Library FHIRHelpers" />
+    <resource value="http://hl7.org/fhir/uv/cql/Library/FHIRHelpers|4.0.1" />
+  </relatedArtifact>
+  <relatedArtifact>
+    <type value="depends-on" />
+    <display value="Library FC" />
+    <resource value="http://hl7.org/fhir/uv/cql/Library/FHIRCommon|2.0.0" />
+  </relatedArtifact>
+  <parameter>
+    <name value="Patient" />
+    <use value="out" />
+    <min value="0" />
+    <max value="1" />
+    <type value="Patient" />
+  </parameter>
+  <content>
+    <contentType value="text/cql" />
+    <url value="Library-WHOCommon.cql" /></content>
+  <content>
+    <contentType value="application/elm+json" />
+    <url value="Library-WHOCommon.elm.json" /></content>
+</Library>
