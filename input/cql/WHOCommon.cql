@@ -1,4 +1,4 @@
-library WHOCommon version '2.0.0'
+library WHOCommon version '1.0.1'
 
 using FHIR version '4.0.1'
 
