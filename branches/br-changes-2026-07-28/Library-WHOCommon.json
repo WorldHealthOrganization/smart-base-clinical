@@ -1,0 +1,86 @@
+{
+  "resourceType": "Library",
+  "id": "WHOCommon",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <table class=\"narrative-table\">\n    <tbody>\n<tr>\n\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\"><a name=\"metadata\"> </a>Metadata</th>\n\n\n</tr>\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Title</th>\n\n\n\n<td class=\"content-container\">WHO Common</td>\n\n\n</tr>\n\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Version</th>\n\n\n\n<td class=\"content-container\">2.0.0</td>\n\n\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Jurisdiction</th>\n\n\n\n<td class=\"content-container\">\n    World\n\n\n</td>\n\n\n</tr>\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Topic</th>\n\n\n\n<td class=\"content-container\">FHIR\n</td>\n\n\n</tr>\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Topic</th>\n\n\n\n<td class=\"content-container\">CQL\n</td>\n\n\n</tr>\n\n\n\n\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Steward (Publisher)</th>\n\n\n\n<td class=\"content-container\">WHO</td>\n\n\n</tr>\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Steward Contact</th>\n\n\n\n<td class=\"content-container\">WHO</td>\n\n\n</tr>\n\n\n\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Description</th>\n\n\n\n<td class=\"content-container\"><div><p>Defines common logic and functions usable across all WHO SMART Guideline content</p>\n</div></td>\n\n\n</tr>\n\n\n\n\n\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Type</th>\n\n\n\n<td class=\"content-container\">\n    <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-library-type.html\">http://terminology.hl7.org/CodeSystem/library-type</a>#logic-library\n\n\n</td>\n\n\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\"><a name=\"parameters\"> </a>Parameters</th>\n\n\n</tr>\n\n<tr>\n  \n\n<th scope=\"row\" class=\"row-header\"/>\n\n\n  <td class=\"content-container\">\n    <table>\n      <thead>\n        <tr>\n          <td><em>Name</em></td>\n          <td><em>Use</em></td>\n          <td><em>Card.</em></td>\n          <td><em>Type</em></td>\n          <td><em>Documentation</em></td>\n        </tr>\n      </thead>\n      <tbody>\n      \n        <tr>\n          <td>Patient</td>\n          <td>Out</td>\n          <td>0..1</td>\n          <td>Patient</td>\n          <td/>\n        </tr>\n      \n      </tbody>\n    </table>\n  </td>\n</tr>\n\n\n\n\n\n\n\n\n  <tr>\n\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Library Content</th>\n\n\n</tr>\n  \n    \n    <tr>\n      <th scope=\"row\" class=\"row-header\">CQL Content</th>\n      <td>\n        <a name=\"cql-content\"> </a>\n        <pre style=\"border: none;\" class=\"content-container highlight language-cql\"><code class=\"language-cql\">library WHOCommon version '2.0.0'\n\nusing FHIR version '4.0.1'\n\ninclude hl7.fhir.uv.cql.FHIRHelpers version '4.0.1'\ninclude hl7.fhir.uv.cql.FHIRCommon version '2.0.0' called FC\n\ncontext Patient\n\ndefine fluent function reportedLocation(measureReport MeasureReport):\n  measureReport.ext('http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation').value as Reference\n\ndefine function Official(identifiers List&lt;Identifier&gt;):\n  singleton from (identifiers I where I.use = 'official')\n\ndefine fluent function official(identifiers List&lt;Identifier&gt;):\n  singleton from (identifiers I where I.use = 'official')\n\ndefine function Official(addresses List&lt;Address&gt;):\n  singleton from (addresses A where A.use = 'official')\n\ndefine fluent function official(addresses List&lt;Address&gt;):\n  singleton from (addresses A where A.use = 'official')\n\ndefine function Official(names List&lt;HumanName&gt;):\n  singleton from (names N where N.use = 'official')\n\ndefine fluent function official(names List&lt;HumanName&gt;):\n  singleton from (names N where N.use = 'official')\n\ndefine function Mobile(contactPoints List&lt;ContactPoint&gt;):\n  singleton from (contactPoints P where P.use = 'mobile')\n\ndefine fluent function mobile(contactPoints List&lt;ContactPoint&gt;):\n  singleton from (contactPoints P where P.use = 'mobile')\n\n/* NOTE: Should use .single() instead of Only() */\ndefine function Only(allergies List&lt;AllergyIntolerance&gt;):\n  singleton from allergies\n\ndefine function Only(appointments List&lt;Appointment&gt;):\n  singleton from appointments\n\ndefine function Only(careplans List&lt;CarePlan&gt;):\n  singleton from careplans\n\ndefine function Only(conditions List&lt;Condition&gt;):\n  singleton from conditions\n\ndefine function Only(encounters List&lt;Encounter&gt;):\n  singleton from encounters\n\ndefine function Only(immunizations List&lt;Immunization&gt;):\n  singleton from immunizations\n\ndefine function Only(medicationrequests List&lt;MedicationRequest&gt;):\n  singleton from medicationrequests\n\ndefine function Only(observations List&lt;Observation&gt;):\n  singleton from observations\n\ndefine function Only(procedures List&lt;Procedure&gt;):\n  singleton from procedures\n\ndefine function Only(serviceRequests List&lt;ServiceRequest&gt;):\n  singleton from serviceRequests\n\ndefine function Only(dosages List&lt;Dosage&gt;):\n  singleton from dosages\n\ndefine function Only(doses List&lt;FHIR.Dosage.DoseAndRate&gt;):\n  singleton from doses\n\ndefine function Earliest(observations List&lt;Observation&gt;):\n  First(\n    observations O\n      sort by start of effective.toInterval()\n  )\n\ndefine fluent function earliest(observations List&lt;Observation&gt;):\n  First(\n    observations O\n      sort by start of effective.toInterval()\n  )\n\ndefine function Latest(observations List&lt;Observation&gt;):\n  Last(\n    observations O\n      sort by start of effective.toInterval()\n  )\n\ndefine fluent function latest(observations List&lt;Observation&gt;):\n  Last(\n    observations O\n      sort by start of effective.toInterval()\n  )\n\ndefine function MostRecent(observations List&lt;Observation&gt;):\n  Last(\n    observations O\n      sort by start of effective.toInterval()\n  )\n\ndefine fluent function mostRecent(observations List&lt;Observation&gt;):\n  Last(\n    observations O\n      sort by start of effective.toInterval()\n  )\n\ndefine function MostRecent(procedures List&lt;Procedure&gt;):\n  Last(\n    procedures P\n      sort by start of performed.toInterval()\n    )\n\ndefine fluent function mostRecent(procedures List&lt;Procedure&gt;):\n  Last(\n    procedures P\n      sort by start of performed.toInterval()\n  )\n\ndefine function Lowest(observations List&lt;Observation&gt;):\n  First(\n    observations O\n      sort by (value as FHIR.Quantity)\n  )\n\ndefine fluent function lowest(observations List&lt;Observation&gt;):\n  First(\n    observations O\n      sort by (value as FHIR.Quantity)\n  )\n\ndefine function Highest(observations List&lt;Observation&gt;):\n  Last(\n    observations O\n      sort by (value as FHIR.Quantity)\n  )\n\ndefine fluent function highest(observations List&lt;Observation&gt;):\n  Last(\n    observations O\n      sort by (value as FHIR.Quantity)\n  )\n</code></pre>\n      </td>\n    </tr>\n    \n  \n    \n    <tr>\n      <th scope=\"row\" class=\"row-header\">ELM JSON Content</th>\n      <td>\n        <pre style=\"border: none;\" class=\"content-container highlight language-cql\"><code>Encoded data </code></pre>\n      </td>\n    </tr>\n    \n  \n\n\n<tr>\n\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\"><a name=\"related-artifacts\"> </a>Citations and References</th>\n\n\n</tr>\n\n\n<tr>\n  \n  \n  \n  \n  \n\n<th scope=\"row\" class=\"row-header\">Dependency</th>\n\n\n  \n  \n  <td class=\"content-container\">\n    \n    <em>Description</em>: Library FHIRHelpers\n    \n    <br/>\n    \n    \n    \n    \n    \n    \n    <em>Resource</em>: <a href=\"http://hl7.org/fhir/uv/cql/STU2/Library-FHIRHelpers.html\">http://hl7.org/fhir/uv/cql/Library/FHIRHelpers|4.0.1</a>\n    <br/>\n    <em>Canonical URL</em>: <tt>http://hl7.org/fhir/uv/cql/Library/FHIRHelpers|4.0.1</tt>\n    \n    \n    \n  </td>\n</tr>\n\n<tr>\n  \n  \n  \n  \n  \n\n<th scope=\"row\" class=\"row-header\">Dependency</th>\n\n\n  \n  \n  <td class=\"content-container\">\n    \n    <em>Description</em>: Library FC\n    \n    <br/>\n    \n    \n    \n    \n    \n    \n    <em>Resource</em>: <a href=\"http://hl7.org/fhir/uv/cql/STU2/Library-FHIRCommon.html\">http://hl7.org/fhir/uv/cql/Library/FHIRCommon|2.0.0</a>\n    <br/>\n    <em>Canonical URL</em>: <tt>http://hl7.org/fhir/uv/cql/Library/FHIRCommon|2.0.0</tt>\n    \n    \n    \n  </td>\n</tr>\n\n\n\n\n<tr>\n  <th colspan=\"2\" scope=\"row\" class=\"row-header\">Generated using version 0.5.6 of the sample-content-ig Liquid templates</th>\n</tr>\n\n    </tbody>\n  </table>\n</div>"
+  },
+  "url": "http://smart.who.int/base-clinical/Library/WHOCommon",
+  "version": "2.0.0",
+  "name": "WHOCommon",
+  "title": "WHO Common",
+  "status": "active",
+  "experimental": false,
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/library-type",
+        "code": "logic-library"
+      }
+    ]
+  },
+  "date": "2026-09-01T13:42:30+00:00",
+  "publisher": "WHO",
+  "contact": [
+    {
+      "name": "WHO",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://who.int"
+        }
+      ]
+    }
+  ],
+  "description": "Defines common logic and functions usable across all WHO SMART Guideline content",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "topic": [
+    {
+      "text": "FHIR"
+    },
+    {
+      "text": "CQL"
+    }
+  ],
+  "relatedArtifact": [
+    {
+      "type": "depends-on",
+      "display": "Library FHIRHelpers",
+      "resource": "http://hl7.org/fhir/uv/cql/Library/FHIRHelpers|4.0.1"
+    },
+    {
+      "type": "depends-on",
+      "display": "Library FC",
+      "resource": "http://hl7.org/fhir/uv/cql/Library/FHIRCommon|2.0.0"
+    }
+  ],
+  "parameter": [
+    {
+      "name": "Patient",
+      "use": "out",
+      "min": 0,
+      "max": "1",
+      "type": "Patient"
+    }
+  ],
+  "content": [
+    {
+      "contentType": "text/cql",
+      "url": "Library-WHOCommon.cql"
+    },
+    {
+      "contentType": "application/elm+json",
+      "url": "Library-WHOCommon.elm.json"
+    }
+  ]
+}

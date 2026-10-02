@@ -1,0 +1,73 @@
+SMARTBaseClinical : Validation Results
+=========================================
+
+err = 0, warn = 0, info = 0
+IG Publisher Version: 1.7.5
+Generated Mon Dec 02 08:14:44 UTC 2024. FHIR version 4.0.1 for smart.who.int.base-clinical#1.0.0 (canonical = http://smart.who.int/base-clinical)
+ Build Errors : 12 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.base-clinical : 0 / 0 / 2
+ /github/workspace/input/extensions/structuredefinition-sg-reportedLocation : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-allergyintolerance : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-careplan : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-careteam : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-condition : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-encounter : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-episodeofcare : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-group : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-immunization : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-immunizationnotdone : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-location : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-measurereport : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-medicationnotrequested : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-medicationrequest : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-observation : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-observationnotdone : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-organization : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-patient : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-practitioner : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-practitionerrole : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-procedure : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-procedurenotdone : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-relatedperson : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-servicenotrequested : 0 / 1 / 1
+ /github/workspace/input/profiles/structuredefinition-sg-servicerequest : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/StructureDefinition-sg-servicenotrequested-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 385, column 1275: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicenotrequested-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 557, column 1029: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicenotrequested.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 573, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicenotrequested.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 897, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicenotrequested.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1543, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicenotrequested.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1867, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicerequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 387, column 1181: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicerequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 568, column 965: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 564, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 889, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1479, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-sg-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1804, column 902: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-smart.who.int.base-clinical.json ==
+== input/extensions/structuredefinition-sg-reportedLocation.json ==
+== input/profiles/structuredefinition-sg-allergyintolerance.json ==
+== input/profiles/structuredefinition-sg-careplan.json ==
+== input/profiles/structuredefinition-sg-careteam.json ==
+== input/profiles/structuredefinition-sg-condition.json ==
+== input/profiles/structuredefinition-sg-encounter.json ==
+== input/profiles/structuredefinition-sg-episodeofcare.json ==
+== input/profiles/structuredefinition-sg-group.json ==
+== input/profiles/structuredefinition-sg-immunization.json ==
+== input/profiles/structuredefinition-sg-immunizationnotdone.json ==
+== input/profiles/structuredefinition-sg-location.json ==
+== input/profiles/structuredefinition-sg-measurereport.json ==
+== input/profiles/structuredefinition-sg-medicationnotrequested.json ==
+== input/profiles/structuredefinition-sg-medicationrequest.json ==
+== input/profiles/structuredefinition-sg-observation.json ==
+== input/profiles/structuredefinition-sg-observationnotdone.json ==
+== input/profiles/structuredefinition-sg-organization.json ==
+== input/profiles/structuredefinition-sg-patient.json ==
+== input/profiles/structuredefinition-sg-practitioner.json ==
+== input/profiles/structuredefinition-sg-practitionerrole.json ==
+== input/profiles/structuredefinition-sg-procedure.json ==
+== input/profiles/structuredefinition-sg-procedurenotdone.json ==
+== input/profiles/structuredefinition-sg-relatedperson.json ==
+== input/profiles/structuredefinition-sg-servicenotrequested.json ==
+== input/profiles/structuredefinition-sg-servicerequest.json ==

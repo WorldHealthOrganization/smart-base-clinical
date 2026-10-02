@@ -1,0 +1,18 @@
+SMARTBaseClinical
+=========================================
+
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
+
+err = 0, warn = 0, info = 0
+IG Publisher Version: 1.7.5

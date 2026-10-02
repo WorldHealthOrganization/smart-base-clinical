@@ -1,0 +1,51 @@
+# smart.who.int.base-clinical#1.0.0: SMART Base Clinical
+
+## Pages
+
+* [Home](index.md)
+* [DAK API Documentation Hub](dak-api.md)
+* [Artifacts Summary](artifacts.md)
+* [Changes](changes.md)
+* [Downloads](downloads.md)
+* [License](license.md)
+
+## Resources
+
+### Resource Profiles
+
+* [WHO SMART Guidelines AllergyIntolerance](StructureDefinition-sg-allergyintolerance.md)
+* [WHO SMART Guidelines CarePlan](StructureDefinition-sg-careplan.md)
+* [WHO SMART Guidelines CareTeam](StructureDefinition-sg-careteam.md)
+* [WHO SMART Guidelines Condition](StructureDefinition-sg-condition.md)
+* [WHO SMART Guidelines Encounter](StructureDefinition-sg-encounter.md)
+* [WHO SMART Guidelines EpisodeOfCare](StructureDefinition-sg-episodeofcare.md)
+* [WHO SMART Guidelines Group](StructureDefinition-sg-group.md)
+* [WHO SMART Guidelines Immunization](StructureDefinition-sg-immunization.md)
+* [WHO SMART Guidelines Immunization Not Done](StructureDefinition-sg-immunizationnotdone.md)
+* [WHO SMART Guidelines Location](StructureDefinition-sg-location.md)
+* [WHO SMART Guidelines MeasureReport](StructureDefinition-sg-measurereport.md)
+* [WHO SMART Guidelines Medication Not Requested](StructureDefinition-sg-medicationnotrequested.md)
+* [WHO SMART Guidelines MedicationRequest](StructureDefinition-sg-medicationrequest.md)
+* [WHO SMART Guidelines Observation](StructureDefinition-sg-observation.md)
+* [WHO SMART Guidelines Observation Not Done](StructureDefinition-sg-observationnotdone.md)
+* [WHO SMART Guidelines Organization](StructureDefinition-sg-organization.md)
+* [WHO SMART Guidelines Patient](StructureDefinition-sg-patient.md)
+* [WHO SMART Guidelines Practitioner](StructureDefinition-sg-practitioner.md)
+* [WHO SMART Guidelines PractitionerRole](StructureDefinition-sg-practitionerrole.md)
+* [WHO SMART Guidelines Procedure](StructureDefinition-sg-procedure.md)
+* [WHO SMART Guidelines Procedure Not Done](StructureDefinition-sg-procedurenotdone.md)
+* [WHO SMART Guidelines RelatedPerson](StructureDefinition-sg-relatedperson.md)
+* [WHO SMART Guidelines Service Not Requested](StructureDefinition-sg-servicenotrequested.md)
+* [WHO SMART Guidelines ServiceRequest](StructureDefinition-sg-servicerequest.md)
+
+### Extensions
+
+* [WHO SMART Guidelines Reported Location](StructureDefinition-sg-reportedLocation.md)
+
+### ImplementationGuides
+
+* [SMART Base Clinical](index.md)
+
+### Libraries
+
+* [WHO Common](Library-WHOCommon.md)
