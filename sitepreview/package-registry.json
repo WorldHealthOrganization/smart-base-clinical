@@ -407,14 +407,14 @@
     "ci-build" : "http://worldhealthorganization.github.io/smart-base-clinical",
     "version-count" : 1,
     "latest" : {
-      "version" : "1.0.0",
-      "date" : "2026-09-04",
-      "path" : "http://smart.who.int/base-clinical/1.0.0"
+      "version" : "1.0.1",
+      "date" : "2026-10-02",
+      "path" : "http://smart.who.int/base-clinical/1.0.1"
     },
     "milestone" : {
-      "version" : "1.0.0",
-      "date" : "2026-09-04",
-      "path" : "http://smart.who.int/base-clinical/1.0.0"
+      "version" : "1.0.1",
+      "date" : "2026-10-02",
+      "path" : "http://smart.who.int/base-clinical/1.0.1"
     }
   }]
 }

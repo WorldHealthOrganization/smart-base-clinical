@@ -1,4 +1,4 @@
-# WHO SMART Guidelines EpisodeOfCare - SMART Base Clinical v1.0.0
+# WHO SMART Guidelines EpisodeOfCare - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-episodeofcare | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:SGEpisodeOfCare |
+| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-episodeofcare | *Version*:1.0.1 |
+| Draft as of 2026-10-02 | *Computable Name*:SGEpisodeOfCare |
 
  
 The WHO SMART Guidelines EpisodeOfCare profile defines conformance requirements and exchange expectations for EpisodeOfCare resources in WHO Smart Guidelines content. EpisodeOfCare resources are used to track enrollment of a patient in a specific guideline for a specific period of time, referred to as a Case in the Clinical Practice Guidelines implementation guide. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-sg-episodeofcare.csv
   "resourceType" : "StructureDefinition",
   "id" : "sg-episodeofcare",
   "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-episodeofcare",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SGEpisodeOfCare",
   "title" : "WHO SMART Guidelines EpisodeOfCare",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",

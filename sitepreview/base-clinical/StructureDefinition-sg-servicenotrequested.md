@@ -1,4 +1,4 @@
-# WHO SMART Guidelines Service Not Requested - SMART Base Clinical v1.0.0
+# WHO SMART Guidelines Service Not Requested - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-servicenotrequested | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:SGServiceNotRequested |
+| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-servicenotrequested | *Version*:1.0.1 |
+| Draft as of 2026-10-02 | *Computable Name*:SGServiceNotRequested |
 
  
 The WHO SMART Guidelines Service Not Requested profile defines conformance requirements and exchange expectations for ServiceRequest resources used to communicate that a particular service (or class of services) should not be performed in WHO Smart Guidelines content. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-sg-servicenotrequest
   "resourceType" : "StructureDefinition",
   "id" : "sg-servicenotrequested",
   "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-servicenotrequested",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SGServiceNotRequested",
   "title" : "WHO SMART Guidelines Service Not Requested",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",

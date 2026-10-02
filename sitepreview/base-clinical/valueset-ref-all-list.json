@@ -26,8 +26,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-organization.html" : "WHO SMART Guidelines Organization",
-    "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient"
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
+    "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/address-use",
@@ -42,8 +42,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-organization.html" : "WHO SMART Guidelines Organization",
-    "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient"
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
+    "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/administration-method-codes",
@@ -72,8 +72,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
-    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient"
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
+    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
@@ -185,13 +185,13 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
     "StructureDefinition-sg-condition.html" : "WHO SMART Guidelines Condition",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -317,9 +317,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.232"],
     "uses" : {
     },
-    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
+    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
     "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
-    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance"
+    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -361,11 +361,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.161"],
     "uses" : {
     },
-    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
     "StructureDefinition-sg-condition.html" : "WHO SMART Guidelines Condition",
+    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
     "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -436,12 +436,12 @@
     "uses" : {
     },
     "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
-    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
-    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
     "StructureDefinition-sg-organization.html" : "WHO SMART Guidelines Organization",
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
     "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
     "StructureDefinition-sg-practitionerrole.html" : "WHO SMART Guidelines PractitionerRole",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient"
+    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
+    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -456,12 +456,12 @@
     "uses" : {
     },
     "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
-    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
-    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
     "StructureDefinition-sg-organization.html" : "WHO SMART Guidelines Organization",
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
     "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
     "StructureDefinition-sg-practitionerrole.html" : "WHO SMART Guidelines PractitionerRole",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient"
+    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
+    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -489,8 +489,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.5"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -504,9 +504,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.512"],
     "uses" : {
     },
+    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
     "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
-    "StructureDefinition-sg-practitionerrole.html" : "WHO SMART Guidelines PractitionerRole",
-    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest"
+    "StructureDefinition-sg-practitionerrole.html" : "WHO SMART Guidelines PractitionerRole"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -520,8 +520,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.425"],
     "uses" : {
     },
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-kind",
@@ -535,8 +535,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.208"],
     "uses" : {
     },
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/diagnosis-role",
@@ -550,8 +550,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.49"],
     "uses" : {
     },
-    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare",
-    "StructureDefinition-sg-encounter.html" : "WHO SMART Guidelines Encounter"
+    "StructureDefinition-sg-encounter.html" : "WHO SMART Guidelines Encounter",
+    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/dose-rate-type",
@@ -749,8 +749,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.109"],
     "uses" : {
     },
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/event-timing",
@@ -793,30 +793,30 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare",
-    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
-    "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
-    "StructureDefinition-sg-immunization.html" : "WHO SMART Guidelines Immunization",
-    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
-    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
-    "StructureDefinition-sg-measurereport.html" : "WHO SMART Guidelines MeasureReport",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
-    "StructureDefinition-sg-group.html" : "WHO SMART Guidelines Group",
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
-    "StructureDefinition-sg-immunizationnotdone.html" : "WHO SMART Guidelines Immunization Not Done",
     "StructureDefinition-sg-condition.html" : "WHO SMART Guidelines Condition",
-    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
+    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
+    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
+    "StructureDefinition-sg-immunization.html" : "WHO SMART Guidelines Immunization",
     "StructureDefinition-sg-organization.html" : "WHO SMART Guidelines Organization",
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
     "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
     "StructureDefinition-sg-practitionerrole.html" : "WHO SMART Guidelines PractitionerRole",
+    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare",
+    "StructureDefinition-sg-immunizationnotdone.html" : "WHO SMART Guidelines Immunization Not Done",
+    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
+    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
     "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-group.html" : "WHO SMART Guidelines Group",
+    "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
     "StructureDefinition-sg-encounter.html" : "WHO SMART Guidelines Encounter",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-measurereport.html" : "WHO SMART Guidelines MeasureReport",
+    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -830,30 +830,30 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare",
-    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
-    "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
-    "StructureDefinition-sg-immunization.html" : "WHO SMART Guidelines Immunization",
-    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
-    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
-    "StructureDefinition-sg-measurereport.html" : "WHO SMART Guidelines MeasureReport",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
-    "StructureDefinition-sg-group.html" : "WHO SMART Guidelines Group",
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
-    "StructureDefinition-sg-immunizationnotdone.html" : "WHO SMART Guidelines Immunization Not Done",
     "StructureDefinition-sg-condition.html" : "WHO SMART Guidelines Condition",
-    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
+    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
+    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
+    "StructureDefinition-sg-immunization.html" : "WHO SMART Guidelines Immunization",
     "StructureDefinition-sg-organization.html" : "WHO SMART Guidelines Organization",
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
     "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
     "StructureDefinition-sg-practitionerrole.html" : "WHO SMART Guidelines PractitionerRole",
+    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare",
+    "StructureDefinition-sg-immunizationnotdone.html" : "WHO SMART Guidelines Immunization Not Done",
+    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
+    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
     "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-group.html" : "WHO SMART Guidelines Group",
+    "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
     "StructureDefinition-sg-encounter.html" : "WHO SMART Guidelines Encounter",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-measurereport.html" : "WHO SMART Guidelines MeasureReport",
+    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/immunization-function",
@@ -1033,30 +1033,30 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare",
-    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
-    "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
-    "StructureDefinition-sg-immunization.html" : "WHO SMART Guidelines Immunization",
-    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
-    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
-    "StructureDefinition-sg-measurereport.html" : "WHO SMART Guidelines MeasureReport",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
-    "StructureDefinition-sg-group.html" : "WHO SMART Guidelines Group",
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
-    "StructureDefinition-sg-immunizationnotdone.html" : "WHO SMART Guidelines Immunization Not Done",
     "StructureDefinition-sg-condition.html" : "WHO SMART Guidelines Condition",
-    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
+    "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
+    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
+    "StructureDefinition-sg-immunization.html" : "WHO SMART Guidelines Immunization",
     "StructureDefinition-sg-organization.html" : "WHO SMART Guidelines Organization",
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
     "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
     "StructureDefinition-sg-practitionerrole.html" : "WHO SMART Guidelines PractitionerRole",
+    "StructureDefinition-sg-episodeofcare.html" : "WHO SMART Guidelines EpisodeOfCare",
+    "StructureDefinition-sg-immunizationnotdone.html" : "WHO SMART Guidelines Immunization Not Done",
+    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
+    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
     "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-group.html" : "WHO SMART Guidelines Group",
+    "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
     "StructureDefinition-sg-encounter.html" : "WHO SMART Guidelines Encounter",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-measurereport.html" : "WHO SMART Guidelines MeasureReport",
+    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -1098,8 +1098,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.328"],
     "uses" : {
     },
-    "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location",
-    "StructureDefinition-sg-encounter.html" : "WHO SMART Guidelines Encounter"
+    "StructureDefinition-sg-encounter.html" : "WHO SMART Guidelines Encounter",
+    "StructureDefinition-sg-location.html" : "WHO SMART Guidelines Location"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/location-status",
@@ -1213,8 +1213,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest"
+    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
@@ -1229,8 +1229,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
-    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
-    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest"
+    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
+    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-category",
@@ -1320,8 +1320,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-practitioner.html" : "WHO SMART Guidelines Practitioner",
-    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson",
-    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient"
+    "StructureDefinition-sg-patient.html" : "WHO SMART Guidelines Patient",
+    "StructureDefinition-sg-relatedperson.html" : "WHO SMART Guidelines RelatedPerson"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -1335,8 +1335,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -1350,8 +1350,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.396"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -1365,8 +1365,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.399"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -1380,8 +1380,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.395"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -1395,8 +1395,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.400"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -1425,8 +1425,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
-    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
+    "StructureDefinition-sg-careteam.html" : "WHO SMART Guidelines CareTeam"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -1455,9 +1455,9 @@
     "uses" : {
     },
     "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
     "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -1471,8 +1471,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.430"],
     "uses" : {
     },
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
@@ -1487,10 +1487,10 @@
     "uses" : {
     },
     "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
     "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
@@ -1504,8 +1504,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.429"],
     "uses" : {
     },
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
@@ -1519,8 +1519,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.431"],
     "uses" : {
     },
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
@@ -1534,8 +1534,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.428"],
     "uses" : {
     },
-    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
+    "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
@@ -1550,9 +1550,9 @@
     "uses" : {
     },
     "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
+    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done",
     "StructureDefinition-sg-procedure.html" : "WHO SMART Guidelines Procedure",
-    "StructureDefinition-sg-procedurenotdone.html" : "WHO SMART Guidelines Procedure Not Done"
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
@@ -1581,8 +1581,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.407"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -1596,8 +1596,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.397"],
     "uses" : {
     },
-    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation",
-    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done"
+    "StructureDefinition-sg-observationnotdone.html" : "WHO SMART Guidelines Observation Not Done",
+    "StructureDefinition-sg-observation.html" : "WHO SMART Guidelines Observation"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
@@ -1641,10 +1641,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.115"],
     "uses" : {
     },
-    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
     "StructureDefinition-sg-medicationnotrequested.html" : "WHO SMART Guidelines Medication Not Requested",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest"
+    "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
+    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -1659,8 +1659,8 @@
     "uses" : {
     },
     "StructureDefinition-sg-servicenotrequested.html" : "WHO SMART Guidelines Service Not Requested",
-    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest",
-    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan"
+    "StructureDefinition-sg-careplan.html" : "WHO SMART Guidelines CarePlan",
+    "StructureDefinition-sg-servicerequest.html" : "WHO SMART Guidelines ServiceRequest"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/route-codes",
@@ -1674,8 +1674,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.98"],
     "uses" : {
     },
-    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance",
-    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest"
+    "StructureDefinition-sg-medicationrequest.html" : "WHO SMART Guidelines MedicationRequest",
+    "StructureDefinition-sg-allergyintolerance.html" : "WHO SMART Guidelines AllergyIntolerance"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/service-type",

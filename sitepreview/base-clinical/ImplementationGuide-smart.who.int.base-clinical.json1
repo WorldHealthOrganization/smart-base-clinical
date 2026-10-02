@@ -9,12 +9,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide smart.who.int.base-clinical</b></p><a name=\"smart.who.int.base-clinical\"> </a><a name=\"hcsmart.who.int.base-clinical\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://smart.who.int/base/1.0.0/StructureDefinition-SGImplementationGuide.html\">SMART Guidelines ImplementationGuide</a></p></div><h2>SMARTBaseClinical</h2><p>The official URL for this implementation guide is: </p><pre>http://smart.who.int/base-clinical/ImplementationGuide/smart.who.int.base-clinical</pre><div><p>This implementation guide defines common clinical artifacts for use with WHO SMART Guidelines content</p>\n</div></div>"
   },
   "url" : "http://smart.who.int/base-clinical/ImplementationGuide/smart.who.int.base-clinical",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SMARTBaseClinical",
   "title" : "SMART Base Clinical",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -84,7 +84,7 @@
     }],
     "uri" : "http://hl7.org/fhir/uv/cqm/ImplementationGuide/hl7.fhir.uv.cqm",
     "packageId" : "hl7.fhir.uv.cqm",
-    "version" : "2.0.0-ballot"
+    "version" : "2.0.0"
   },
   {
     "id" : "sb",
@@ -115,7 +115,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -438,7 +438,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

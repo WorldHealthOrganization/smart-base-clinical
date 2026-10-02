@@ -1,4 +1,4 @@
-# Home - SMART Base Clinical v1.0.0
+# Home - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/ImplementationGuide/smart.who.int.base-clinical | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:SMARTBaseClinical |
+| *Official URL*:http://smart.who.int/base-clinical/ImplementationGuide/smart.who.int.base-clinical | *Version*:1.0.1 |
+| Active as of 2026-10-02 | *Computable Name*:SMARTBaseClinical |
 
 ### Overview
 
@@ -51,12 +51,12 @@ This publication includes IP covered under the following statements.
     "profile" : ["http://smart.who.int/base/StructureDefinition/SGImplementationGuide"]
   },
   "url" : "http://smart.who.int/base-clinical/ImplementationGuide/smart.who.int.base-clinical",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SMARTBaseClinical",
   "title" : "SMART Base Clinical",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -126,7 +126,7 @@ This publication includes IP covered under the following statements.
     }],
     "uri" : "http://hl7.org/fhir/uv/cqm/ImplementationGuide/hl7.fhir.uv.cqm",
     "packageId" : "hl7.fhir.uv.cqm",
-    "version" : "2.0.0-ballot"
+    "version" : "2.0.0"
   },
   {
     "id" : "sb",
@@ -157,7 +157,7 @@ This publication includes IP covered under the following statements.
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -480,7 +480,7 @@ This publication includes IP covered under the following statements.
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

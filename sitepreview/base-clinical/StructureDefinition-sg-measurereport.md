@@ -1,4 +1,4 @@
-# WHO SMART Guidelines MeasureReport - SMART Base Clinical v1.0.0
+# WHO SMART Guidelines MeasureReport - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-measurereport | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:SGMeasureReport |
+| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-measurereport | *Version*:1.0.1 |
+| Draft as of 2026-10-02 | *Computable Name*:SGMeasureReport |
 
  
 The WHO SMART Guidelines MeasureReport profile defines conformance requirements and exchange expectations for MeasureReport resources in WHO Smart Guidelines content. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-sg-measurereport.csv
   "resourceType" : "StructureDefinition",
   "id" : "sg-measurereport",
   "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-measurereport",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SGMeasureReport",
   "title" : "WHO SMART Guidelines MeasureReport",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",

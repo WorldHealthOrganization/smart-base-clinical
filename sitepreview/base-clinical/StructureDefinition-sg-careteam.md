@@ -1,4 +1,4 @@
-# WHO SMART Guidelines CareTeam - SMART Base Clinical v1.0.0
+# WHO SMART Guidelines CareTeam - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-careteam | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:SGCareTeam |
+| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-careteam | *Version*:1.0.1 |
+| Draft as of 2026-10-02 | *Computable Name*:SGCareTeam |
 
  
 The WHO SMART Guidelines CareTeam profile defines conformance requirements and exchange expectations for CareTeam resources in WHO Smart Guidelines content. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-sg-careteam.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "sg-careteam",
   "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-careteam",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SGCareTeam",
   "title" : "WHO SMART Guidelines CareTeam",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",

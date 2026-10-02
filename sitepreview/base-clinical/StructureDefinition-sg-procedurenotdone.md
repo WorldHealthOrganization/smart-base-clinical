@@ -1,4 +1,4 @@
-# WHO SMART Guidelines Procedure Not Done - SMART Base Clinical v1.0.0
+# WHO SMART Guidelines Procedure Not Done - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-procedurenotdone | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:SGProcedureNotDone |
+| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-procedurenotdone | *Version*:1.0.1 |
+| Draft as of 2026-10-02 | *Computable Name*:SGProcedureNotDone |
 
  
 The WHO SMART Guidelines Procedure Not Done profile defines conformance requirements and exchange expectations for Procedure resources used to communicate that a particular procedure (or class of procedures) was not performed in WHO Smart Guidelines content. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-sg-procedurenotdone.
   "resourceType" : "StructureDefinition",
   "id" : "sg-procedurenotdone",
   "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-procedurenotdone",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SGProcedureNotDone",
   "title" : "WHO SMART Guidelines Procedure Not Done",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",

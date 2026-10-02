@@ -7,14 +7,14 @@
     "desc" : "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
   },
   {
-    "version" : "1.0.0",
-    "path" : "http://smart.who.int/base-clinical/1.0.0",
+    "version" : "1.0.1",
+    "path" : "http://smart.who.int/base-clinical/1.0.1",
     "status" : "release",
     "sequence" : "Releases",
     "fhirversion" : "4.0.1",
-    "date" : "2026-09-04",
+    "date" : "2026-10-02",
     "current" : true,
-    "desc" : "1.0.0 release"
+    "desc" : "1.0.1 release"
   }],
   "package-id" : "smart.who.int.base-clinical",
   "canonical" : "http://smart.who.int/base-clinical",

@@ -1,4 +1,4 @@
-# WHO SMART Guidelines Organization - SMART Base Clinical v1.0.0
+# WHO SMART Guidelines Organization - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-organization | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:SGOrganization |
+| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-organization | *Version*:1.0.1 |
+| Draft as of 2026-10-02 | *Computable Name*:SGOrganization |
 
  
 The WHO SMART Guidelines Organization profile defines conformance requirements and exchange expectations for Organization resources in WHO Smart Guidelines content. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-sg-organization.csv)
   "resourceType" : "StructureDefinition",
   "id" : "sg-organization",
   "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-organization",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SGOrganization",
   "title" : "WHO SMART Guidelines Organization",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",

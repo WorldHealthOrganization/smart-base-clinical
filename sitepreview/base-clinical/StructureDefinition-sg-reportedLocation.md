@@ -1,4 +1,4 @@
-# WHO SMART Guidelines Reported Location - SMART Base Clinical v1.0.0
+# WHO SMART Guidelines Reported Location - SMART Base Clinical v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:SGReportedLocation |
+| *Official URL*:http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation | *Version*:1.0.1 |
+| Draft as of 2026-10-02 | *Computable Name*:SGReportedLocation |
 
 The location at which the reported data was generated
 
@@ -42,12 +42,12 @@ Other representations of profile: [CSV](StructureDefinition-sg-reportedLocation.
   "resourceType" : "StructureDefinition",
   "id" : "sg-reportedLocation",
   "url" : "http://smart.who.int/base-clinical/StructureDefinition/sg-reportedLocation",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "SGReportedLocation",
   "title" : "WHO SMART Guidelines Reported Location",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T05:53:08+00:00",
+  "date" : "2026-10-02T08:11:09+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
