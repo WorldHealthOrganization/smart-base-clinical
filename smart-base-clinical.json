@@ -7,5 +7,10 @@
   "needs": [
     "smart-base"
   ],
-  "directories": []
+  "directories": [],
+  "enableSubgraphs": [
+    "folio-assistant-core.collab",
+    "smart-base.collab",
+    "fhir-harness.collab"
+  ]
 }

@@ -14,7 +14,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "a378a59bec81f26a159449795d7ba823ff3a5c71",
+          "ref": "914723bc595a5786b4340549819658c5c0af1bbb",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -38,9 +38,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "a378a59bec81f26a159449795d7ba823ff3a5c71",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "914723bc595a5786b4340549819658c5c0af1bbb",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
@@ -51,7 +51,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "168b99206e0efe661ac71987cfaaffeb308ec76b",
+          "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -62,8 +62,7 @@
                 "smart-base-translations",
                 "library",
                 "methodologies",
-                "processes",
-                "smart-base-house-processes",
+                "collab",
                 "smart-base-artifact-index",
                 "tools",
                 "smart-base-themes",
@@ -76,7 +75,7 @@
                 "smart-base-schemas",
                 "smart-base-pipeline",
                 "smart-base-scripts",
-                "smart-base-kg",
+                "smart-base-L1",
                 "smart-base-skills",
                 "smart-base-scenarios",
                 "smart-base-code-lists"
@@ -86,9 +85,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "168b99206e0efe661ac71987cfaaffeb308ec76b",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
@@ -99,7 +98,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "b0150c28d8f166490b53e099338739dfe1102c95",
+          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -108,9 +107,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "b0150c28d8f166490b53e099338739dfe1102c95",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
@@ -121,7 +120,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "2a8b67d8aae13fb4f94cc0074d0085b43b10a69d",
+          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -136,9 +135,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "2a8b67d8aae13fb4f94cc0074d0085b43b10a69d",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
@@ -149,7 +148,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "44f49b72babcaa5db257ef84be7963fc868a7456",
+          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -164,9 +163,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "44f49b72babcaa5db257ef84be7963fc868a7456",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
@@ -177,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "2b251af566ffe21a705eda0c397c3da8e9bf2a96",
+          "ref": "39ee6af57dc09d2f25d1caf89ee4484d3df24327",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -189,9 +188,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "2b251af566ffe21a705eda0c397c3da8e9bf2a96",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "39ee6af57dc09d2f25d1caf89ee4484d3df24327",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
@@ -202,7 +201,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -211,9 +210,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
@@ -224,7 +223,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "076173fe036f16300e8e2767dd35ab81411b46ab",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -236,9 +235,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "076173fe036f16300e8e2767dd35ab81411b46ab",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "litlfred, 2026-11-15 12:12Z, project thread chat: 'make sure revisions are aligned with current deciisons and infra' (reviving the opt-in collab enable drafts, after card 'A. Revive, close, ask', 12:09Z): hand re-pin of every layer to main, Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             }
           }
         }
