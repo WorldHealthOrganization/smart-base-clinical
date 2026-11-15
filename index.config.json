@@ -247,5 +247,27 @@
   "site": {
     "landing": "smart-base",
     "agentRun": true
+  },
+  "contentTypes": {
+    "ig": {
+      "_comment": "What this repository is, per the content types its layers register: fhir-harness's `ig` content type. `include` is everything the harness reads in this repository, and nothing else is read: every `input/` entry and the IG's own build files. Set up as litlfred/smart-hiv's (owner card Q-JTD-2 A, 2026-11-10). `trustedScripts` lists the same-site script the IG's page header loads (cql.js, the Prism CQL grammar in input/images/), trusted on the owner's card of 2026-11-15 16:58Z under fhir-harness ig-content-qa's trustedScripts rule (owner cards Q-TRP-3, Q-RAIL-2).",
+      "include": [
+        "sushi-config.yaml",
+        "ig.ini",
+        "input/cql/",
+        "input/extensions/",
+        "input/fsh/",
+        "input/ignoreWarnings.txt",
+        "input/images/",
+        "input/includes/",
+        "input/pagecontent/",
+        "input/profiles/",
+        "input/resources/",
+        "qa/ig-content-qa.json"
+      ],
+      "trustedScripts": [
+        "cql.js"
+      ]
+    }
   }
 }
