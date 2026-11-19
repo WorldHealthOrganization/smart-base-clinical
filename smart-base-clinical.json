@@ -1,0 +1,16 @@
+{
+  "$schema": "cat-harness-declaration/1.0.0",
+  "name": "smart-base-clinical",
+  "repository": "litlfred/smart-base-clinical",
+  "title": "WHO SMART Guidelines — Base Clinical",
+  "description": "Clinical conformance resources shared by the clinically focused WHO SMART Guidelines IGs (CPG-derived profiles, WHOCommon CQL), as a harnessed instance of smart-base. It holds no process or encounter catalogue yet (bean 2ipj). Declared with no directories yet: what it holds is seeded later (n3h9, 53rv), and a declared-but-absent directory is the dh4f defect.",
+  "needs": [
+    "smart-base"
+  ],
+  "directories": [],
+  "enableSubgraphs": [
+    "folio-assistant-core.collab",
+    "smart-base.collab",
+    "fhir-harness.collab"
+  ]
+}
