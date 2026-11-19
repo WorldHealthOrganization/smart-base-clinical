@@ -1,0 +1,53 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+      "version" : "1.1.0",
+      "status" : "draft",
+      "name" : "DiagnosisRole",
+      "title" : "Diagnosis Role",
+      "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1054"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-diagnosis-role.html" : "DiagnosisRole"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "MedicationRequestCategoryCodes",
+      "title" : "MedicationRequest Category Codes",
+      "description" : "MedicationRequest Category Codes",
+      "oids" : ["2.16.840.1.113883.4.642.1.1323"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-medicationrequest-category.html" : "Medication request  category  codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ContactRole2",
+      "title" : "contactRole2",
+      "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+      "oids" : ["2.16.840.1.113883.18.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-relatedperson-relationshiptype.html" : "Patient relationship type"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "RoleCode",
+      "title" : "RoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "oids" : ["2.16.840.1.113883.5.111"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/5.5.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
+      "http://hl7.org/fhir/R4/valueset-relatedperson-relationshiptype.html" : "Patient relationship type"
+    }
+  ]
+}
