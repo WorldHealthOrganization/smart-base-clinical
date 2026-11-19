@@ -1,0 +1,12 @@
+{
+  "$schema": "ig-content-qa/v1",
+  "contentDigest": "sha256:47d791d045a51518e1bda19c8a96fb39418b0cdfb375403cefb33c451724c982",
+  "items": 3288,
+  "reviewedAt": "2026-11-15T16:59:59.569Z",
+  "reviewer": {
+    "kind": "agent",
+    "name": "Claude (Opus 5.5)",
+    "session": "https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
+  },
+  "findings": []
+}
